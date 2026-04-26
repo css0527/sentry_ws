@@ -1,0 +1,94 @@
+[0.015s] Invoking command in '/home/xinzhu/sentry_ws/build/rm_camera_driver': AMENT_PREFIX_PATH=/home/xinzhu/sentry_ws/install/rm_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xinzhu/sentry_ws/install/rm_utils:/home/xinzhu/Desktop/sentry_ws/install/sentry_description:/home/xinzhu/Desktop/sentry_ws/install/sentry_bringup:/home/xinzhu/Desktop/sentry_ws/install/sensor_scan_generation:/home/xinzhu/Desktop/sentry_ws/install/rm_rune:/home/xinzhu/Desktop/sentry_ws/install/rune_solver:/home/xinzhu/Desktop/sentry_ws/install/rune_detector:/home/xinzhu/Desktop/sentry_ws/install/rm_serial_driver:/home/xinzhu/Desktop/sentry_ws/install/rm_auto_aim:/home/xinzhu/Desktop/sentry_ws/install/armor_solver:/home/xinzhu/Desktop/sentry_ws/install/armor_detector:/home/xinzhu/Desktop/sentry_ws/install/rm_utils:/home/xinzhu/Desktop/sentry_ws/install/rm_robot_description:/home/xinzhu/Desktop/sentry_ws/install/rm_interfaces:/home/xinzhu/Desktop/sentry_ws/install/livox_ros_driver2:/home/xinzhu/Desktop/sentry_ws/install/costmap_intensity:/home/xinzhu/Desktop/sentry_ws/install/behavior_ext_plugins:/home/xinzhu/Desktop/sentry_ws/install/auto_aim_interfaces:/home/xinzhu/Desktop/sentry_ws/install/control_panel:/opt/ros/humble LD_LIBRARY_PATH=/home/xinzhu/sentry_ws/install/rm_utils/lib:${LD_LIBRARY_PATH} PS1=%F{green}%n@%m%f%F{white}:%f%F{blue}%~%f%F{white}$%f /usr/local/bin/cmake --build /home/xinzhu/sentry_ws/build/rm_camera_driver -- -j16 -l16
+[0.025s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.025s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.025s]   CMake.
+[0.025s] 
+[0.025s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.025s]   to tell CMake that the project requires at least <min> but has been updated
+[0.025s]   to work with policies introduced by <max> or earlier.
+[0.025s] 
+[0.025s] [0m
+[0.029s] -- Found ament_cmake_auto: 1.3.14 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.180s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.246s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.247s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.251s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.257s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.266s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.288s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.289s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.363s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.559s] -- Found AMD headers in: /usr/include/suitesparse
+[0.559s] -- Found AMD library: /usr/lib/x86_64-linux-gnu/libamd.so
+[0.559s] -- Found CAMD headers in: /usr/include/suitesparse
+[0.559s] -- Found CAMD library: /usr/lib/x86_64-linux-gnu/libcamd.so
+[0.559s] -- Found CCOLAMD headers in: /usr/include/suitesparse
+[0.559s] -- Found CCOLAMD library: /usr/lib/x86_64-linux-gnu/libccolamd.so
+[0.559s] -- Found CHOLMOD headers in: /usr/include/suitesparse
+[0.559s] -- Found CHOLMOD library: /usr/lib/x86_64-linux-gnu/libcholmod.so
+[0.559s] -- Found COLAMD headers in: /usr/include/suitesparse
+[0.559s] -- Found COLAMD library: /usr/lib/x86_64-linux-gnu/libcolamd.so
+[0.559s] -- Found SPQR headers in: /usr/include/suitesparse
+[0.559s] -- Found SPQR library: /usr/lib/x86_64-linux-gnu/libspqr.so
+[0.559s] -- Found Config headers in: /usr/include/suitesparse
+[0.559s] -- Found Config library: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
+[0.559s] -- Found Intel Thread Building Blocks (TBB) library (2021.5 / ) include location: . Assuming SuiteSparseQR was compiled with TBB.
+[0.559s] -- Adding librt to SuiteSparse_config libraries (required on Linux & Unix [not OSX] if SuiteSparse is compiled with timing).
+[0.562s] -- Could NOT find METIS (missing: METIS_INCLUDE_DIR METIS_LIBRARY) 
+[0.590s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.594s] [0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/rm_camera_driver` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+[0.599s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.599s] -- Configured cppcheck include dirs: /home/xinzhu/sentry_ws/src/rm_hardware_driver/rm_camera_driver/include
+[0.599s] -- Configured cppcheck exclude dirs and/or files: 
+[0.599s] -- Added test 'lint_cmake' to check CMake code style
+[0.600s] -- Added test 'xmllint' to check XML markup files
+[0.603s] -- Configuring done (0.6s)
+[0.622s] -- Generating done (0.0s)
+[0.625s] -- Build files have been written to: /home/xinzhu/sentry_ws/build/rm_camera_driver
+[0.648s] [ 25%] Built target video_player_node
+[0.649s] [ 50%] Built target rm_camera_driver_node
+[0.661s] [ 62%] [32mBuilding CXX object CMakeFiles/rm_camera_driver.dir/src/video_player.cpp.o[0m
+[0.661s] [ 75%] [32mBuilding CXX object CMakeFiles/rm_camera_driver.dir/src/daheng_camera.cpp.o[0m
+[0.661s] [ 87%] [32mBuilding CXX object CMakeFiles/rm_camera_driver.dir/src/recorder.cpp.o[0m
+[7.414s] [100%] [32m[1mLinking CXX shared library librm_camera_driver.so[0m
+[7.607s] [100%] Built target rm_camera_driver
+[7.614s] Invoked command in '/home/xinzhu/sentry_ws/build/rm_camera_driver' returned '0': AMENT_PREFIX_PATH=/home/xinzhu/sentry_ws/install/rm_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xinzhu/sentry_ws/install/rm_utils:/home/xinzhu/Desktop/sentry_ws/install/sentry_description:/home/xinzhu/Desktop/sentry_ws/install/sentry_bringup:/home/xinzhu/Desktop/sentry_ws/install/sensor_scan_generation:/home/xinzhu/Desktop/sentry_ws/install/rm_rune:/home/xinzhu/Desktop/sentry_ws/install/rune_solver:/home/xinzhu/Desktop/sentry_ws/install/rune_detector:/home/xinzhu/Desktop/sentry_ws/install/rm_serial_driver:/home/xinzhu/Desktop/sentry_ws/install/rm_auto_aim:/home/xinzhu/Desktop/sentry_ws/install/armor_solver:/home/xinzhu/Desktop/sentry_ws/install/armor_detector:/home/xinzhu/Desktop/sentry_ws/install/rm_utils:/home/xinzhu/Desktop/sentry_ws/install/rm_robot_description:/home/xinzhu/Desktop/sentry_ws/install/rm_interfaces:/home/xinzhu/Desktop/sentry_ws/install/livox_ros_driver2:/home/xinzhu/Desktop/sentry_ws/install/costmap_intensity:/home/xinzhu/Desktop/sentry_ws/install/behavior_ext_plugins:/home/xinzhu/Desktop/sentry_ws/install/auto_aim_interfaces:/home/xinzhu/Desktop/sentry_ws/install/control_panel:/opt/ros/humble LD_LIBRARY_PATH=/home/xinzhu/sentry_ws/install/rm_utils/lib:${LD_LIBRARY_PATH} PS1=%F{green}%n@%m%f%F{white}:%f%F{blue}%~%f%F{white}$%f /usr/local/bin/cmake --build /home/xinzhu/sentry_ws/build/rm_camera_driver -- -j16 -l16
+[7.621s] Invoking command in '/home/xinzhu/sentry_ws/build/rm_camera_driver': AMENT_PREFIX_PATH=/home/xinzhu/sentry_ws/install/rm_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xinzhu/sentry_ws/install/rm_utils:/home/xinzhu/Desktop/sentry_ws/install/sentry_description:/home/xinzhu/Desktop/sentry_ws/install/sentry_bringup:/home/xinzhu/Desktop/sentry_ws/install/sensor_scan_generation:/home/xinzhu/Desktop/sentry_ws/install/rm_rune:/home/xinzhu/Desktop/sentry_ws/install/rune_solver:/home/xinzhu/Desktop/sentry_ws/install/rune_detector:/home/xinzhu/Desktop/sentry_ws/install/rm_serial_driver:/home/xinzhu/Desktop/sentry_ws/install/rm_auto_aim:/home/xinzhu/Desktop/sentry_ws/install/armor_solver:/home/xinzhu/Desktop/sentry_ws/install/armor_detector:/home/xinzhu/Desktop/sentry_ws/install/rm_utils:/home/xinzhu/Desktop/sentry_ws/install/rm_robot_description:/home/xinzhu/Desktop/sentry_ws/install/rm_interfaces:/home/xinzhu/Desktop/sentry_ws/install/livox_ros_driver2:/home/xinzhu/Desktop/sentry_ws/install/costmap_intensity:/home/xinzhu/Desktop/sentry_ws/install/behavior_ext_plugins:/home/xinzhu/Desktop/sentry_ws/install/auto_aim_interfaces:/home/xinzhu/Desktop/sentry_ws/install/control_panel:/opt/ros/humble LD_LIBRARY_PATH=/home/xinzhu/sentry_ws/install/rm_utils/lib:${LD_LIBRARY_PATH} PS1=%F{green}%n@%m%f%F{white}:%f%F{blue}%~%f%F{white}$%f /usr/local/bin/cmake --install /home/xinzhu/sentry_ws/build/rm_camera_driver
+[7.625s] -- Install configuration: "Release"
+[7.626s] -- Execute custom install script
+[7.626s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_camera_driver/lib/x86_64/1555df0c238ef408c62d6ff58221ca8742fb56f0.cache
+[7.626s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_camera_driver/lib/x86_64/452e5af839bed9a84b2a73eb107232d644aabef8.cache
+[7.626s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_camera_driver/lib/x86_64/GxGVTL.cti
+[7.626s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_camera_driver/lib/x86_64/GxU3VTL.cti
+[7.627s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_camera_driver/lib/x86_64/bc4b08373788f18282ff1e747a98dd6c21a8b629.cache
+[7.627s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_camera_driver/lib/x86_64/libgxiapi.so
+[7.627s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_camera_driver/lib/x86_64/libgxiapi.so.1.0.1904.8241
+[7.627s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_camera_driver/lib/rm_camera_driver/rm_camera_driver_node
+[7.627s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_camera_driver/lib/rm_camera_driver/video_player_node
+[7.628s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_camera_driver/include/daheng/DxImageProc.h
+[7.628s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_camera_driver/include/daheng/GxIAPI.h
+[7.628s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_camera_driver/include/rm_camera_driver/daheng_camera.hpp
+[7.628s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_camera_driver/include/rm_camera_driver/recorder.hpp
+[7.628s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_camera_driver/share/rm_camera_driver/environment/library_path.sh
+[7.629s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_camera_driver/share/rm_camera_driver/environment/library_path.dsv
+[7.629s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_camera_driver/lib/librm_camera_driver.so
+[7.629s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_camera_driver/share/ament_index/resource_index/package_run_dependencies/rm_camera_driver
+[7.629s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_camera_driver/share/ament_index/resource_index/parent_prefix_path/rm_camera_driver
+[7.630s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_camera_driver/share/rm_camera_driver/environment/ament_prefix_path.sh
+[7.630s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_camera_driver/share/rm_camera_driver/environment/ament_prefix_path.dsv
+[7.630s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_camera_driver/share/rm_camera_driver/environment/path.sh
+[7.630s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_camera_driver/share/rm_camera_driver/environment/path.dsv
+[7.630s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_camera_driver/share/rm_camera_driver/local_setup.bash
+[7.630s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_camera_driver/share/rm_camera_driver/local_setup.sh
+[7.631s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_camera_driver/share/rm_camera_driver/local_setup.zsh
+[7.631s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_camera_driver/share/rm_camera_driver/local_setup.dsv
+[7.631s] -- Symlinking: /home/xinzhu/sentry_ws/install/rm_camera_driver/share/rm_camera_driver/package.dsv
+[7.635s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_camera_driver/share/ament_index/resource_index/packages/rm_camera_driver
+[7.635s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_camera_driver/share/ament_index/resource_index/rclcpp_components/rm_camera_driver
+[7.635s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_camera_driver/share/rm_camera_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.635s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_camera_driver/share/rm_camera_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.635s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_camera_driver/share/rm_camera_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[7.635s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_camera_driver/share/rm_camera_driver/cmake/rm_camera_driverConfig.cmake
+[7.635s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_camera_driver/share/rm_camera_driver/cmake/rm_camera_driverConfig-version.cmake
+[7.636s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_camera_driver/share/rm_camera_driver/package.xml
+[7.637s] Invoked command in '/home/xinzhu/sentry_ws/build/rm_camera_driver' returned '0': AMENT_PREFIX_PATH=/home/xinzhu/sentry_ws/install/rm_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xinzhu/sentry_ws/install/rm_utils:/home/xinzhu/Desktop/sentry_ws/install/sentry_description:/home/xinzhu/Desktop/sentry_ws/install/sentry_bringup:/home/xinzhu/Desktop/sentry_ws/install/sensor_scan_generation:/home/xinzhu/Desktop/sentry_ws/install/rm_rune:/home/xinzhu/Desktop/sentry_ws/install/rune_solver:/home/xinzhu/Desktop/sentry_ws/install/rune_detector:/home/xinzhu/Desktop/sentry_ws/install/rm_serial_driver:/home/xinzhu/Desktop/sentry_ws/install/rm_auto_aim:/home/xinzhu/Desktop/sentry_ws/install/armor_solver:/home/xinzhu/Desktop/sentry_ws/install/armor_detector:/home/xinzhu/Desktop/sentry_ws/install/rm_utils:/home/xinzhu/Desktop/sentry_ws/install/rm_robot_description:/home/xinzhu/Desktop/sentry_ws/install/rm_interfaces:/home/xinzhu/Desktop/sentry_ws/install/livox_ros_driver2:/home/xinzhu/Desktop/sentry_ws/install/costmap_intensity:/home/xinzhu/Desktop/sentry_ws/install/behavior_ext_plugins:/home/xinzhu/Desktop/sentry_ws/install/auto_aim_interfaces:/home/xinzhu/Desktop/sentry_ws/install/control_panel:/opt/ros/humble LD_LIBRARY_PATH=/home/xinzhu/sentry_ws/install/rm_utils/lib:${LD_LIBRARY_PATH} PS1=%F{green}%n@%m%f%F{white}:%f%F{blue}%~%f%F{white}$%f /usr/local/bin/cmake --install /home/xinzhu/sentry_ws/build/rm_camera_driver

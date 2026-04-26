@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/xinzhu/sentry_ws/build/sensor_scan_generation/sensorScanGeneration" "TARGETS" "sensorScanGeneration" "DESTINATION" "lib/sensor_scan_generation")

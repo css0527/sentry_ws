@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/xinzhu/sentry_ws/build/rm_decision_cpp/librm_decision_cpp.so" "TARGETS" "rm_decision_cpp" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "lib/rm_decision_cpp")

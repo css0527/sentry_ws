@@ -1,0 +1,251 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-9bac92d774866a74d720.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "livox_interfaces2__py",
+					"jsonFile" : "directory-livox_interfaces2__py-Release-715365c7bd4d419e3c89.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/xinzhu/sentry_ws/build/livox_ros_driver2/livox_interfaces2__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "livox_ros_driver2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_livox_ros_driver2_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_livox_ros_driver2_egg-Release-5883ee9be49ba6f59e4f.json",
+					"name" : "ament_cmake_python_build_livox_ros_driver2_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_livox_ros_driver2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_livox_ros_driver2-Release-e3b144e04719b901bcf9.json",
+					"name" : "ament_cmake_python_symlink_livox_ros_driver2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "livox_interfaces2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-livox_interfaces2-Release-133680922f8567b6e258.json",
+					"name" : "livox_interfaces2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "livox_interfaces2__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-livox_interfaces2__cpp-Release-2b40cd521734086f48a7.json",
+					"name" : "livox_interfaces2__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "livox_interfaces2__py::@2193f99523ceedf55379",
+					"jsonFile" : "target-livox_interfaces2__py-Release-d0e93315e57767d7eaca.json",
+					"name" : "livox_interfaces2__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "livox_interfaces2__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-livox_interfaces2__rosidl_generator_c-Release-299a134356b44e359fae.json",
+					"name" : "livox_interfaces2__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "livox_interfaces2__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-livox_interfaces2__rosidl_generator_py-Release-fae91007a359364d0ae9.json",
+					"name" : "livox_interfaces2__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "livox_interfaces2__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-livox_interfaces2__rosidl_typesupport_c-Release-47373fd81cf8bf9a1dac.json",
+					"name" : "livox_interfaces2__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "livox_interfaces2__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-livox_interfaces2__rosidl_typesupport_cpp-Release-49125662b2ba544a45ea.json",
+					"name" : "livox_interfaces2__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "livox_interfaces2__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-livox_interfaces2__rosidl_typesupport_fastrtps_c-Release-4d0bac3ca60ddb66d9dc.json",
+					"name" : "livox_interfaces2__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "livox_interfaces2__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-livox_interfaces2__rosidl_typesupport_fastrtps_cpp-Release-d34c438ef14e0a458e5d.json",
+					"name" : "livox_interfaces2__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "livox_interfaces2__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-livox_interfaces2__rosidl_typesupport_introspection_c-Release-8f3f3e8f82ad9b5a6771.json",
+					"name" : "livox_interfaces2__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "livox_interfaces2__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-livox_interfaces2__rosidl_typesupport_introspection_cpp-Release-12499a083e3486cc65ae.json",
+					"name" : "livox_interfaces2__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "livox_ros_driver2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-livox_ros_driver2-Release-ec37abc083a989feff71.json",
+					"name" : "livox_ros_driver2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "livox_ros_driver2__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-livox_ros_driver2__rosidl_typesupport_c__pyext-Release-e2cb51fa472599a30450.json",
+					"name" : "livox_ros_driver2__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext-Release-5eb10cdc852f4a50fcdf.json",
+					"name" : "livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "livox_ros_driver2__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-livox_ros_driver2__rosidl_typesupport_introspection_c__pyext-Release-630af2bfad7ec840fc81.json",
+					"name" : "livox_ros_driver2__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "livox_ros_driver2_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-livox_ros_driver2_node-Release-9bc68171f7d8912a529f.json",
+					"name" : "livox_ros_driver2_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "livox_ros_driver2_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-livox_ros_driver2_uninstall-Release-6b71ca6d4047ac95e515.json",
+					"name" : "livox_ros_driver2_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-7a1f2c67644c9eceb688.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/xinzhu/sentry_ws/build/livox_ros_driver2",
+		"source" : "/home/xinzhu/sentry_ws/src/livox_ros_driver2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

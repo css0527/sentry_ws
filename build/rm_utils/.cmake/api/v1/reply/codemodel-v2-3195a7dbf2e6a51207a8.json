@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-e3b0c1d8da58b2efed59.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rm_utils",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "fytlogger::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fytlogger-Release-f9b2bcad9c6073d1654b.json",
+					"name" : "fytlogger",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_utils::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_utils-Release-2120da04229dffab2c7e.json",
+					"name" : "rm_utils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_utils_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_utils_uninstall-Release-a0f2faa6241268c19b07.json",
+					"name" : "rm_utils_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-11491e300fbecbd76e70.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/xinzhu/sentry_ws/build/rm_utils",
+		"source" : "/home/xinzhu/sentry_ws/src/rm_utils"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

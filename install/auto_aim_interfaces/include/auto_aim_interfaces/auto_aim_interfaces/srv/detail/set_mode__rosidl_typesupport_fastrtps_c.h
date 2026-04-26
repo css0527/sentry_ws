@@ -1,0 +1,1 @@
+/home/xinzhu/sentry_ws/build/auto_aim_interfaces/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/srv/detail/set_mode__rosidl_typesupport_fastrtps_c.h

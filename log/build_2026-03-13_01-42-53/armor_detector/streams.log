@@ -1,0 +1,177 @@
+[0.018s] Invoking command in '/home/xinzhu/sentry_ws/build/armor_detector': AMENT_PREFIX_PATH=/home/xinzhu/sentry_ws/install/rm_utils:/home/xinzhu/sentry_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xinzhu/sentry_ws/install/rm_utils:/home/xinzhu/sentry_ws/install/auto_aim_interfaces:/home/xinzhu/Desktop/sentry_ws/install/terrain_analysis_ext:/home/xinzhu/Desktop/sentry_ws/install/terrain_analysis:/home/xinzhu/Desktop/sentry_ws/install/sentry_description:/home/xinzhu/Desktop/sentry_ws/install/sentry_bringup:/home/xinzhu/Desktop/sentry_ws/install/sensor_scan_generation:/home/xinzhu/Desktop/sentry_ws/install/rm_bringup:/home/xinzhu/Desktop/sentry_ws/install/rm_serial_driver:/home/xinzhu/Desktop/sentry_ws/install/rm_camera_driver:/home/xinzhu/Desktop/sentry_ws/install/rm_auto_aim:/home/xinzhu/Desktop/sentry_ws/install/armor_solver:/home/xinzhu/Desktop/sentry_ws/install/armor_detector:/home/xinzhu/Desktop/sentry_ws/install/rm_utils:/home/xinzhu/Desktop/sentry_ws/install/rm_robot_description:/home/xinzhu/Desktop/sentry_ws/install/rm_decision_cpp:/home/xinzhu/Desktop/sentry_ws/install/cmd_chassis:/home/xinzhu/Desktop/sentry_ws/install/rm_interfaces:/home/xinzhu/Desktop/sentry_ws/install/fast_lio:/home/xinzhu/Desktop/sentry_ws/install/livox_ros_driver2:/home/xinzhu/Desktop/sentry_ws/install/icp_relocalization:/home/xinzhu/Desktop/sentry_ws/install/costmap_intensity:/home/xinzhu/Desktop/sentry_ws/install/behaviortree_cpp:/home/xinzhu/Desktop/sentry_ws/install/behavior_ext_plugins:/home/xinzhu/Desktop/sentry_ws/install/auto_aim_interfaces:/home/xinzhu/Desktop/sentry_ws/install/control_panel:/opt/ros/humble LD_LIBRARY_PATH=/home/xinzhu/sentry_ws/install/rm_utils/lib:/home/xinzhu/sentry_ws/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PS1=%F{green}%n@%m%f%F{white}:%f%F{blue}%~%f%F{white}$%f PYTHONPATH=/home/xinzhu/sentry_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/xinzhu/sentry_ws/src/rm_auto_aim/armor_detector -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xinzhu/sentry_ws/install/armor_detector
+[0.080s] -- The C compiler identification is GNU 11.4.0
+[0.150s] -- The CXX compiler identification is GNU 11.4.0
+[0.164s] -- Detecting C compiler ABI info
+[0.239s] -- Detecting C compiler ABI info - done
+[0.260s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.260s] -- Detecting C compile features
+[0.260s] -- Detecting C compile features - done
+[0.275s] -- Detecting CXX compiler ABI info
+[0.354s] -- Detecting CXX compiler ABI info - done
+[0.369s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.370s] -- Detecting CXX compile features
+[0.370s] -- Detecting CXX compile features - done
+[0.381s] -- Found ament_cmake_auto: 1.3.13 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.568s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.637s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.709s] -- Found OpenCV: /usr/local (found version "4.7.0")
+[0.765s] [33mCMake Warning (dev) at /usr/local/share/cmake-3.31/Modules/FindOpenGL.cmake:415 (message):
+[0.766s]   Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when
+[0.766s]   available.  Run "cmake --help-policy CMP0072" for policy details.  Use the
+[0.766s]   cmake_policy command to set the policy and suppress this warning.
+[0.766s] 
+[0.766s]   FindOpenGL found both a legacy GL library:
+[0.766s] 
+[0.766s]     OPENGL_gl_LIBRARY: /usr/lib/x86_64-linux-gnu/libGL.so
+[0.766s] 
+[0.766s]   and GLVND libraries for OpenGL and GLX:
+[0.766s] 
+[0.766s]     OPENGL_opengl_LIBRARY: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+[0.766s]     OPENGL_glx_LIBRARY: /usr/lib/x86_64-linux-gnu/libGLX.so
+[0.766s] 
+[0.766s]   OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for
+[0.766s]   compatibility with CMake 3.10 and below the legacy GL library will be used.
+[0.766s] Call Stack (most recent call first):
+[0.766s]   /usr/local/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)
+[0.767s]   /usr/local/lib/cmake/g2o/g2oConfig.cmake:6 (find_dependency)
+[0.767s]   CMakeLists.txt:28 (find_package)
+[0.767s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.767s] [0m
+[0.767s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+[0.774s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.833s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.834s] -- Found Threads: TRUE
+[0.995s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.003s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.013s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.030s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.050s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.111s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.116s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.216s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[1.258s] -- Found FastRTPS: /opt/ros/humble/include
+[1.308s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.690s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.691s] -- Found Eigen3: TRUE (found version "3.4.0")
+[1.691s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.270s] -- Found AMD headers in: /usr/include/suitesparse
+[2.272s] -- Found AMD library: /usr/lib/x86_64-linux-gnu/libamd.so
+[2.273s] -- Found CAMD headers in: /usr/include/suitesparse
+[2.276s] -- Found CAMD library: /usr/lib/x86_64-linux-gnu/libcamd.so
+[2.277s] -- Found CCOLAMD headers in: /usr/include/suitesparse
+[2.279s] -- Found CCOLAMD library: /usr/lib/x86_64-linux-gnu/libccolamd.so
+[2.280s] -- Found CHOLMOD headers in: /usr/include/suitesparse
+[2.283s] -- Found CHOLMOD library: /usr/lib/x86_64-linux-gnu/libcholmod.so
+[2.284s] -- Found COLAMD headers in: /usr/include/suitesparse
+[2.287s] -- Found COLAMD library: /usr/lib/x86_64-linux-gnu/libcolamd.so
+[2.287s] -- Found SPQR headers in: /usr/include/suitesparse
+[2.290s] -- Found SPQR library: /usr/lib/x86_64-linux-gnu/libspqr.so
+[2.291s] -- Found Config headers in: /usr/include/suitesparse
+[2.294s] -- Found Config library: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
+[2.295s] -- Found Intel Thread Building Blocks (TBB) library (2021.5 / ) include location: . Assuming SuiteSparseQR was compiled with TBB.
+[2.295s] -- Looking for shm_open in rt
+[2.351s] -- Looking for shm_open in rt - found
+[2.351s] -- Adding librt to SuiteSparse_config libraries (required on Linux & Unix [not OSX] if SuiteSparse is compiled with timing).
+[2.360s] -- Could NOT find METIS (missing: METIS_INCLUDE_DIR METIS_LIBRARY) 
+[2.417s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.476s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.479s] [0mCMake Deprecation Warning at /opt/ros/humble/src/gtest_vendor/CMakeLists.txt:2 (cmake_minimum_required):
+[2.479s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[2.479s]   CMake.
+[2.479s] 
+[2.479s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[2.479s]   to tell CMake that the project requires at least <min> but has been updated
+[2.479s]   to work with policies introduced by <max> or earlier.
+[2.479s] 
+[2.479s] [0m
+[2.484s] [0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/armor_detector` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+[2.494s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.495s] -- Configured cppcheck include dirs: /home/xinzhu/sentry_ws/src/rm_auto_aim/armor_detector/include
+[2.495s] -- Configured cppcheck exclude dirs and/or files: 
+[2.497s] -- Added test 'xmllint' to check XML markup files
+[2.501s] -- Added test 'clang_format' to check C / C++ code style
+[2.505s] -- Configuring done (2.5s)
+[2.563s] -- Generating done (0.1s)
+[2.573s] -- Build files have been written to: /home/xinzhu/sentry_ws/build/armor_detector
+[2.592s] Invoked command in '/home/xinzhu/sentry_ws/build/armor_detector' returned '0': AMENT_PREFIX_PATH=/home/xinzhu/sentry_ws/install/rm_utils:/home/xinzhu/sentry_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xinzhu/sentry_ws/install/rm_utils:/home/xinzhu/sentry_ws/install/auto_aim_interfaces:/home/xinzhu/Desktop/sentry_ws/install/terrain_analysis_ext:/home/xinzhu/Desktop/sentry_ws/install/terrain_analysis:/home/xinzhu/Desktop/sentry_ws/install/sentry_description:/home/xinzhu/Desktop/sentry_ws/install/sentry_bringup:/home/xinzhu/Desktop/sentry_ws/install/sensor_scan_generation:/home/xinzhu/Desktop/sentry_ws/install/rm_bringup:/home/xinzhu/Desktop/sentry_ws/install/rm_serial_driver:/home/xinzhu/Desktop/sentry_ws/install/rm_camera_driver:/home/xinzhu/Desktop/sentry_ws/install/rm_auto_aim:/home/xinzhu/Desktop/sentry_ws/install/armor_solver:/home/xinzhu/Desktop/sentry_ws/install/armor_detector:/home/xinzhu/Desktop/sentry_ws/install/rm_utils:/home/xinzhu/Desktop/sentry_ws/install/rm_robot_description:/home/xinzhu/Desktop/sentry_ws/install/rm_decision_cpp:/home/xinzhu/Desktop/sentry_ws/install/cmd_chassis:/home/xinzhu/Desktop/sentry_ws/install/rm_interfaces:/home/xinzhu/Desktop/sentry_ws/install/fast_lio:/home/xinzhu/Desktop/sentry_ws/install/livox_ros_driver2:/home/xinzhu/Desktop/sentry_ws/install/icp_relocalization:/home/xinzhu/Desktop/sentry_ws/install/costmap_intensity:/home/xinzhu/Desktop/sentry_ws/install/behaviortree_cpp:/home/xinzhu/Desktop/sentry_ws/install/behavior_ext_plugins:/home/xinzhu/Desktop/sentry_ws/install/auto_aim_interfaces:/home/xinzhu/Desktop/sentry_ws/install/control_panel:/opt/ros/humble LD_LIBRARY_PATH=/home/xinzhu/sentry_ws/install/rm_utils/lib:/home/xinzhu/sentry_ws/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PS1=%F{green}%n@%m%f%F{white}:%f%F{blue}%~%f%F{white}$%f PYTHONPATH=/home/xinzhu/sentry_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/xinzhu/sentry_ws/src/rm_auto_aim/armor_detector -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xinzhu/sentry_ws/install/armor_detector
+[2.594s] Invoking command in '/home/xinzhu/sentry_ws/build/armor_detector': AMENT_PREFIX_PATH=/home/xinzhu/sentry_ws/install/rm_utils:/home/xinzhu/sentry_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xinzhu/sentry_ws/install/rm_utils:/home/xinzhu/sentry_ws/install/auto_aim_interfaces:/home/xinzhu/Desktop/sentry_ws/install/terrain_analysis_ext:/home/xinzhu/Desktop/sentry_ws/install/terrain_analysis:/home/xinzhu/Desktop/sentry_ws/install/sentry_description:/home/xinzhu/Desktop/sentry_ws/install/sentry_bringup:/home/xinzhu/Desktop/sentry_ws/install/sensor_scan_generation:/home/xinzhu/Desktop/sentry_ws/install/rm_bringup:/home/xinzhu/Desktop/sentry_ws/install/rm_serial_driver:/home/xinzhu/Desktop/sentry_ws/install/rm_camera_driver:/home/xinzhu/Desktop/sentry_ws/install/rm_auto_aim:/home/xinzhu/Desktop/sentry_ws/install/armor_solver:/home/xinzhu/Desktop/sentry_ws/install/armor_detector:/home/xinzhu/Desktop/sentry_ws/install/rm_utils:/home/xinzhu/Desktop/sentry_ws/install/rm_robot_description:/home/xinzhu/Desktop/sentry_ws/install/rm_decision_cpp:/home/xinzhu/Desktop/sentry_ws/install/cmd_chassis:/home/xinzhu/Desktop/sentry_ws/install/rm_interfaces:/home/xinzhu/Desktop/sentry_ws/install/fast_lio:/home/xinzhu/Desktop/sentry_ws/install/livox_ros_driver2:/home/xinzhu/Desktop/sentry_ws/install/icp_relocalization:/home/xinzhu/Desktop/sentry_ws/install/costmap_intensity:/home/xinzhu/Desktop/sentry_ws/install/behaviortree_cpp:/home/xinzhu/Desktop/sentry_ws/install/behavior_ext_plugins:/home/xinzhu/Desktop/sentry_ws/install/auto_aim_interfaces:/home/xinzhu/Desktop/sentry_ws/install/control_panel:/opt/ros/humble LD_LIBRARY_PATH=/home/xinzhu/sentry_ws/install/rm_utils/lib:/home/xinzhu/sentry_ws/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PS1=%F{green}%n@%m%f%F{white}:%f%F{blue}%~%f%F{white}$%f PYTHONPATH=/home/xinzhu/sentry_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/xinzhu/sentry_ws/build/armor_detector -- -j16 -l16
+[2.624s] [  6%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/armor_detector.cpp.o[0m
+[7.754s] [ 12%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/number_classifier.cpp.o[0m
+[10.916s] [ 18%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/light_corner_corrector.cpp.o[0m
+[13.200s] [ 25%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/graph_optimizer.cpp.o[0m
+[24.946s] [ 31%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/ba_solver.cpp.o[0m
+[38.973s] [ 37%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/armor_pose_estimator.cpp.o[0m
+[50.778s] [ 43%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/armor_detector_node.cpp.o[0m
+[78.389s] [ 50%] [32m[1mLinking CXX shared library libarmor_detector.so[0m
+[78.670s] [ 50%] Built target armor_detector
+[78.681s] [ 56%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[84.023s] [ 62%] [32m[1mLinking CXX static library libgtest.a[0m
+[84.072s] [ 62%] Built target gtest
+[84.084s] [ 68%] [32mBuilding CXX object CMakeFiles/armor_detector_node.dir/rclcpp_components/node_main_armor_detector_node.cpp.o[0m
+[84.084s] [ 75%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[84.787s] [ 81%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[84.823s] [ 81%] Built target gtest_main
+[84.835s] [ 87%] [32mBuilding CXX object CMakeFiles/test_detector.dir/test/test_detector.cpp.o[0m
+[86.593s] [ 93%] [32m[1mLinking CXX executable armor_detector_node[0m
+[86.668s] [ 93%] Built target armor_detector_node
+[88.756s] [100%] [32m[1mLinking CXX executable test_detector[0m
+[88.882s] /usr/bin/ld: warning: libopencv_imgcodecs.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.407
+[88.884s] /usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.407
+[88.886s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.407
+[89.167s] [100%] Built target test_detector
+[89.174s] Invoked command in '/home/xinzhu/sentry_ws/build/armor_detector' returned '0': AMENT_PREFIX_PATH=/home/xinzhu/sentry_ws/install/rm_utils:/home/xinzhu/sentry_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xinzhu/sentry_ws/install/rm_utils:/home/xinzhu/sentry_ws/install/auto_aim_interfaces:/home/xinzhu/Desktop/sentry_ws/install/terrain_analysis_ext:/home/xinzhu/Desktop/sentry_ws/install/terrain_analysis:/home/xinzhu/Desktop/sentry_ws/install/sentry_description:/home/xinzhu/Desktop/sentry_ws/install/sentry_bringup:/home/xinzhu/Desktop/sentry_ws/install/sensor_scan_generation:/home/xinzhu/Desktop/sentry_ws/install/rm_bringup:/home/xinzhu/Desktop/sentry_ws/install/rm_serial_driver:/home/xinzhu/Desktop/sentry_ws/install/rm_camera_driver:/home/xinzhu/Desktop/sentry_ws/install/rm_auto_aim:/home/xinzhu/Desktop/sentry_ws/install/armor_solver:/home/xinzhu/Desktop/sentry_ws/install/armor_detector:/home/xinzhu/Desktop/sentry_ws/install/rm_utils:/home/xinzhu/Desktop/sentry_ws/install/rm_robot_description:/home/xinzhu/Desktop/sentry_ws/install/rm_decision_cpp:/home/xinzhu/Desktop/sentry_ws/install/cmd_chassis:/home/xinzhu/Desktop/sentry_ws/install/rm_interfaces:/home/xinzhu/Desktop/sentry_ws/install/fast_lio:/home/xinzhu/Desktop/sentry_ws/install/livox_ros_driver2:/home/xinzhu/Desktop/sentry_ws/install/icp_relocalization:/home/xinzhu/Desktop/sentry_ws/install/costmap_intensity:/home/xinzhu/Desktop/sentry_ws/install/behaviortree_cpp:/home/xinzhu/Desktop/sentry_ws/install/behavior_ext_plugins:/home/xinzhu/Desktop/sentry_ws/install/auto_aim_interfaces:/home/xinzhu/Desktop/sentry_ws/install/control_panel:/opt/ros/humble LD_LIBRARY_PATH=/home/xinzhu/sentry_ws/install/rm_utils/lib:/home/xinzhu/sentry_ws/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PS1=%F{green}%n@%m%f%F{white}:%f%F{blue}%~%f%F{white}$%f PYTHONPATH=/home/xinzhu/sentry_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/xinzhu/sentry_ws/build/armor_detector -- -j16 -l16
+[89.175s] Invoking command in '/home/xinzhu/sentry_ws/build/armor_detector': AMENT_PREFIX_PATH=/home/xinzhu/sentry_ws/install/rm_utils:/home/xinzhu/sentry_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xinzhu/sentry_ws/install/rm_utils:/home/xinzhu/sentry_ws/install/auto_aim_interfaces:/home/xinzhu/Desktop/sentry_ws/install/terrain_analysis_ext:/home/xinzhu/Desktop/sentry_ws/install/terrain_analysis:/home/xinzhu/Desktop/sentry_ws/install/sentry_description:/home/xinzhu/Desktop/sentry_ws/install/sentry_bringup:/home/xinzhu/Desktop/sentry_ws/install/sensor_scan_generation:/home/xinzhu/Desktop/sentry_ws/install/rm_bringup:/home/xinzhu/Desktop/sentry_ws/install/rm_serial_driver:/home/xinzhu/Desktop/sentry_ws/install/rm_camera_driver:/home/xinzhu/Desktop/sentry_ws/install/rm_auto_aim:/home/xinzhu/Desktop/sentry_ws/install/armor_solver:/home/xinzhu/Desktop/sentry_ws/install/armor_detector:/home/xinzhu/Desktop/sentry_ws/install/rm_utils:/home/xinzhu/Desktop/sentry_ws/install/rm_robot_description:/home/xinzhu/Desktop/sentry_ws/install/rm_decision_cpp:/home/xinzhu/Desktop/sentry_ws/install/cmd_chassis:/home/xinzhu/Desktop/sentry_ws/install/rm_interfaces:/home/xinzhu/Desktop/sentry_ws/install/fast_lio:/home/xinzhu/Desktop/sentry_ws/install/livox_ros_driver2:/home/xinzhu/Desktop/sentry_ws/install/icp_relocalization:/home/xinzhu/Desktop/sentry_ws/install/costmap_intensity:/home/xinzhu/Desktop/sentry_ws/install/behaviortree_cpp:/home/xinzhu/Desktop/sentry_ws/install/behavior_ext_plugins:/home/xinzhu/Desktop/sentry_ws/install/auto_aim_interfaces:/home/xinzhu/Desktop/sentry_ws/install/control_panel:/opt/ros/humble LD_LIBRARY_PATH=/home/xinzhu/sentry_ws/install/rm_utils/lib:/home/xinzhu/sentry_ws/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PS1=%F{green}%n@%m%f%F{white}:%f%F{blue}%~%f%F{white}$%f PYTHONPATH=/home/xinzhu/sentry_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/xinzhu/sentry_ws/build/armor_detector
+[89.179s] -- Install configuration: "Release"
+[89.180s] -- Execute custom install script
+[89.180s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/lib/armor_detector/armor_detector_node
+[89.185s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/include/armor_detector/armor_detector.hpp
+[89.188s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/include/armor_detector/armor_detector_node.hpp
+[89.191s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/include/armor_detector/armor_pose_estimator.hpp
+[89.195s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/include/armor_detector/ba_solver.hpp
+[89.198s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/include/armor_detector/graph_optimizer.hpp
+[89.201s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/include/armor_detector/light_corner_corrector.hpp
+[89.204s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/include/armor_detector/number_classifier.hpp
+[89.206s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/include/armor_detector/types.hpp
+[89.210s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/share/armor_detector/environment/library_path.sh
+[89.213s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/share/armor_detector/environment/library_path.dsv
+[89.217s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/lib/libarmor_detector.so
+[89.221s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/share/armor_detector/docs/BA.png
+[89.223s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/share/armor_detector/docs/blue.png
+[89.227s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/share/armor_detector/docs/classify.png
+[89.230s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/share/armor_detector/docs/gray_bin.png
+[89.233s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/share/armor_detector/docs/hsv_bin.png
+[89.236s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/share/armor_detector/docs/model.svg
+[89.239s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/share/armor_detector/docs/num_bin.png
+[89.244s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/share/armor_detector/docs/num_raw.png
+[89.247s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/share/armor_detector/docs/num_roi.png
+[89.252s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/share/armor_detector/docs/num_warp.png
+[89.256s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/share/armor_detector/docs/origin1.png
+[89.260s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/share/armor_detector/docs/origin2.png
+[89.265s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/share/armor_detector/docs/pca1.png
+[89.269s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/share/armor_detector/docs/pca2.png
+[89.272s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/share/armor_detector/docs/raw.png
+[89.277s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/share/armor_detector/docs/red.png
+[89.280s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/share/armor_detector/docs/test.png
+[89.283s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/share/armor_detector/model/label.txt
+[89.287s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/share/armor_detector/model/lenet.onnx
+[89.292s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/share/armor_detector/model/mlp.onnx
+[89.296s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/share/ament_index/resource_index/package_run_dependencies/armor_detector
+[89.300s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/share/ament_index/resource_index/parent_prefix_path/armor_detector
+[89.305s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/share/armor_detector/environment/ament_prefix_path.sh
+[89.309s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/share/armor_detector/environment/ament_prefix_path.dsv
+[89.313s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/share/armor_detector/environment/path.sh
+[89.317s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/share/armor_detector/environment/path.dsv
+[89.322s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/share/armor_detector/local_setup.bash
+[89.326s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/share/armor_detector/local_setup.sh
+[89.331s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/share/armor_detector/local_setup.zsh
+[89.336s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/share/armor_detector/local_setup.dsv
+[89.340s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/share/armor_detector/package.dsv
+[89.344s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/share/ament_index/resource_index/packages/armor_detector
+[89.349s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/share/ament_index/resource_index/rclcpp_components/armor_detector
+[89.354s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/share/armor_detector/cmake/ament_cmake_export_dependencies-extras.cmake
+[89.358s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/share/armor_detector/cmake/ament_cmake_export_include_directories-extras.cmake
+[89.362s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/share/armor_detector/cmake/ament_cmake_export_libraries-extras.cmake
+[89.366s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/share/armor_detector/cmake/armor_detectorConfig.cmake
+[89.371s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/share/armor_detector/cmake/armor_detectorConfig-version.cmake
+[89.375s] -- Symlinking: /home/xinzhu/sentry_ws/install/armor_detector/share/armor_detector/package.xml
+[89.381s] Invoked command in '/home/xinzhu/sentry_ws/build/armor_detector' returned '0': AMENT_PREFIX_PATH=/home/xinzhu/sentry_ws/install/rm_utils:/home/xinzhu/sentry_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xinzhu/sentry_ws/install/rm_utils:/home/xinzhu/sentry_ws/install/auto_aim_interfaces:/home/xinzhu/Desktop/sentry_ws/install/terrain_analysis_ext:/home/xinzhu/Desktop/sentry_ws/install/terrain_analysis:/home/xinzhu/Desktop/sentry_ws/install/sentry_description:/home/xinzhu/Desktop/sentry_ws/install/sentry_bringup:/home/xinzhu/Desktop/sentry_ws/install/sensor_scan_generation:/home/xinzhu/Desktop/sentry_ws/install/rm_bringup:/home/xinzhu/Desktop/sentry_ws/install/rm_serial_driver:/home/xinzhu/Desktop/sentry_ws/install/rm_camera_driver:/home/xinzhu/Desktop/sentry_ws/install/rm_auto_aim:/home/xinzhu/Desktop/sentry_ws/install/armor_solver:/home/xinzhu/Desktop/sentry_ws/install/armor_detector:/home/xinzhu/Desktop/sentry_ws/install/rm_utils:/home/xinzhu/Desktop/sentry_ws/install/rm_robot_description:/home/xinzhu/Desktop/sentry_ws/install/rm_decision_cpp:/home/xinzhu/Desktop/sentry_ws/install/cmd_chassis:/home/xinzhu/Desktop/sentry_ws/install/rm_interfaces:/home/xinzhu/Desktop/sentry_ws/install/fast_lio:/home/xinzhu/Desktop/sentry_ws/install/livox_ros_driver2:/home/xinzhu/Desktop/sentry_ws/install/icp_relocalization:/home/xinzhu/Desktop/sentry_ws/install/costmap_intensity:/home/xinzhu/Desktop/sentry_ws/install/behaviortree_cpp:/home/xinzhu/Desktop/sentry_ws/install/behavior_ext_plugins:/home/xinzhu/Desktop/sentry_ws/install/auto_aim_interfaces:/home/xinzhu/Desktop/sentry_ws/install/control_panel:/opt/ros/humble LD_LIBRARY_PATH=/home/xinzhu/sentry_ws/install/rm_utils/lib:/home/xinzhu/sentry_ws/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PS1=%F{green}%n@%m%f%F{white}:%f%F{blue}%~%f%F{white}$%f PYTHONPATH=/home/xinzhu/sentry_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/xinzhu/sentry_ws/build/armor_detector

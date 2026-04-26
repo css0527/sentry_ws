@@ -1,0 +1,27 @@
+[0.332s] Invoking command in '/home/xinzhu/sentry_ws/build/terrain_analysis': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinzhu/Desktop/sentry_ws/install/control_panel:/opt/ros/humble PS1=%F{green}%n@%m%f%F{white}:%f%F{blue}%~%f%F{white}$%f /usr/local/bin/cmake --build /home/xinzhu/sentry_ws/build/terrain_analysis -- -j16 -l16
+[0.409s] [ 50%] Built target terrainAnalysis
+[0.429s] [100%] Built target exchangeField
+[0.549s] Invoked command in '/home/xinzhu/sentry_ws/build/terrain_analysis' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinzhu/Desktop/sentry_ws/install/control_panel:/opt/ros/humble PS1=%F{green}%n@%m%f%F{white}:%f%F{blue}%~%f%F{white}$%f /usr/local/bin/cmake --build /home/xinzhu/sentry_ws/build/terrain_analysis -- -j16 -l16
+[0.550s] Invoking command in '/home/xinzhu/sentry_ws/build/terrain_analysis': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinzhu/Desktop/sentry_ws/install/control_panel:/opt/ros/humble PS1=%F{green}%n@%m%f%F{white}:%f%F{blue}%~%f%F{white}$%f /usr/local/bin/cmake --install /home/xinzhu/sentry_ws/build/terrain_analysis
+[0.590s] -- Install configuration: "Release"
+[0.590s] -- Execute custom install script
+[0.591s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/terrain_analysis/lib/terrain_analysis/terrainAnalysis
+[0.591s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/terrain_analysis/lib/terrain_analysis/exchangeField
+[0.591s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/terrain_analysis/share/terrain_analysis/launch/exchangeFiled.launch
+[0.591s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/terrain_analysis/share/terrain_analysis/launch/terrain_analysis.launch
+[0.591s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/terrain_analysis/share/ament_index/resource_index/package_run_dependencies/terrain_analysis
+[0.591s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/terrain_analysis/share/ament_index/resource_index/parent_prefix_path/terrain_analysis
+[0.591s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/terrain_analysis/share/terrain_analysis/environment/ament_prefix_path.sh
+[0.591s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/terrain_analysis/share/terrain_analysis/environment/ament_prefix_path.dsv
+[0.591s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/terrain_analysis/share/terrain_analysis/environment/path.sh
+[0.591s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/terrain_analysis/share/terrain_analysis/environment/path.dsv
+[0.591s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/terrain_analysis/share/terrain_analysis/local_setup.bash
+[0.591s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/terrain_analysis/share/terrain_analysis/local_setup.sh
+[0.591s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/terrain_analysis/share/terrain_analysis/local_setup.zsh
+[0.591s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/terrain_analysis/share/terrain_analysis/local_setup.dsv
+[0.591s] -- Symlinking: /home/xinzhu/sentry_ws/install/terrain_analysis/share/terrain_analysis/package.dsv
+[0.591s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/terrain_analysis/share/ament_index/resource_index/packages/terrain_analysis
+[0.591s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/terrain_analysis/share/terrain_analysis/cmake/terrain_analysisConfig.cmake
+[0.591s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/terrain_analysis/share/terrain_analysis/cmake/terrain_analysisConfig-version.cmake
+[0.591s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/terrain_analysis/share/terrain_analysis/package.xml
+[0.607s] Invoked command in '/home/xinzhu/sentry_ws/build/terrain_analysis' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinzhu/Desktop/sentry_ws/install/control_panel:/opt/ros/humble PS1=%F{green}%n@%m%f%F{white}:%f%F{blue}%~%f%F{white}$%f /usr/local/bin/cmake --install /home/xinzhu/sentry_ws/build/terrain_analysis

@@ -1,0 +1,116 @@
+[0.015s] Invoking command in '/home/xinzhu/sentry_ws/build/rm_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinzhu/Desktop/sentry_ws/install/control_panel:/opt/ros/humble PS1=%F{green}%n@%m%f%F{white}:%f%F{blue}%~%f%F{white}$%f /usr/local/bin/cmake --build /home/xinzhu/sentry_ws/build/rm_utils -- -j16 -l16
+[0.027s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.027s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.027s]   CMake.
+[0.027s] 
+[0.027s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.027s]   to tell CMake that the project requires at least <min> but has been updated
+[0.027s]   to work with policies introduced by <max> or earlier.
+[0.027s] 
+[0.027s] [0m
+[0.034s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.171s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.176s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[0.197s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.199s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.204s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.211s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.221s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.246s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.248s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.324s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.361s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.362s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.470s] -- Found AMD headers in: /usr/include/suitesparse
+[0.471s] -- Found AMD library: /usr/lib/x86_64-linux-gnu/libamd.so
+[0.471s] -- Found CAMD headers in: /usr/include/suitesparse
+[0.471s] -- Found CAMD library: /usr/lib/x86_64-linux-gnu/libcamd.so
+[0.471s] -- Found CCOLAMD headers in: /usr/include/suitesparse
+[0.471s] -- Found CCOLAMD library: /usr/lib/x86_64-linux-gnu/libccolamd.so
+[0.471s] -- Found CHOLMOD headers in: /usr/include/suitesparse
+[0.471s] -- Found CHOLMOD library: /usr/lib/x86_64-linux-gnu/libcholmod.so
+[0.471s] -- Found COLAMD headers in: /usr/include/suitesparse
+[0.471s] -- Found COLAMD library: /usr/lib/x86_64-linux-gnu/libcolamd.so
+[0.471s] -- Found SPQR headers in: /usr/include/suitesparse
+[0.471s] -- Found SPQR library: /usr/lib/x86_64-linux-gnu/libspqr.so
+[0.471s] -- Found Config headers in: /usr/include/suitesparse
+[0.471s] -- Found Config library: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
+[0.471s] -- Found Intel Thread Building Blocks (TBB) library (2021.5 / ) include location: . Assuming SuiteSparseQR was compiled with TBB.
+[0.472s] -- Adding librt to SuiteSparse_config libraries (required on Linux & Unix [not OSX] if SuiteSparse is compiled with timing).
+[0.475s] -- Could NOT find METIS (missing: METIS_INCLUDE_DIR METIS_LIBRARY) 
+[0.477s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/share/eigen3/cmake
+[0.479s] -- Found required Ceres dependency: glog
+[0.479s] -- Found required Ceres dependency: gflags
+[0.480s] -- Found Ceres version: 2.2.0 installed in: /usr/local with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, SchurSpecializations]
+[0.484s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.532s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.533s] -- Configured cppcheck include dirs: /home/xinzhu/sentry_ws/src/rm_utils/include
+[0.533s] -- Configured cppcheck exclude dirs and/or files: 
+[0.533s] -- Added test 'lint_cmake' to check CMake code style
+[0.533s] -- Added test 'xmllint' to check XML markup files
+[0.535s] -- Configuring done (0.5s)
+[0.550s] -- Generating done (0.0s)
+[0.553s] -- Build files have been written to: /home/xinzhu/sentry_ws/build/rm_utils
+[0.575s] [  8%] [32mBuilding CXX object CMakeFiles/fytlogger.dir/src/logger/logger_pool.cpp.o[0m
+[0.575s] [ 25%] [32mBuilding CXX object CMakeFiles/fytlogger.dir/src/logger/writer.cpp.o[0m
+[0.576s] [ 25%] [32mBuilding CXX object CMakeFiles/fytlogger.dir/src/logger/logger_impl.cpp.o[0m
+[0.588s] [ 41%] [32mBuilding CXX object CMakeFiles/rm_utils.dir/src/math/pnp_solver.cpp.o[0m
+[0.588s] [ 41%] [32mBuilding CXX object CMakeFiles/rm_utils.dir/src/math/trajectory_compensator.cpp.o[0m
+[0.588s] [ 50%] [32mBuilding CXX object CMakeFiles/rm_utils.dir/src/math/utils.cpp.o[0m
+[0.589s] [ 58%] [32mBuilding CXX object CMakeFiles/rm_utils.dir/src/math/manual_compensator.cpp.o[0m
+[0.589s] [ 66%] [32mBuilding CXX object CMakeFiles/rm_utils.dir/src/math/extended_kalman_filter.cpp.o[0m
+[0.589s] [ 75%] [32mBuilding CXX object CMakeFiles/rm_utils.dir/src/url_resolver.cpp.o[0m
+[0.590s] [ 83%] [32mBuilding CXX object CMakeFiles/rm_utils.dir/src/heartbeat.cpp.o[0m
+[1.588s] [ 91%] [32m[1mLinking CXX shared library libfytlogger.so[0m
+[1.659s] [ 91%] Built target fytlogger
+[7.376s] [100%] [32m[1mLinking CXX shared library librm_utils.so[0m
+[7.603s] [100%] Built target rm_utils
+[7.627s] Invoked command in '/home/xinzhu/sentry_ws/build/rm_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinzhu/Desktop/sentry_ws/install/control_panel:/opt/ros/humble PS1=%F{green}%n@%m%f%F{white}:%f%F{blue}%~%f%F{white}$%f /usr/local/bin/cmake --build /home/xinzhu/sentry_ws/build/rm_utils -- -j16 -l16
+[7.629s] Invoking command in '/home/xinzhu/sentry_ws/build/rm_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinzhu/Desktop/sentry_ws/install/control_panel:/opt/ros/humble PS1=%F{green}%n@%m%f%F{white}:%f%F{blue}%~%f%F{white}$%f /usr/local/bin/cmake --install /home/xinzhu/sentry_ws/build/rm_utils
+[7.641s] -- Install configuration: "Release"
+[7.642s] -- Execute custom install script
+[7.645s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_utils/include/rm_utils/assert.hpp
+[7.645s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_utils/include/rm_utils/common.hpp
+[7.646s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_utils/include/rm_utils/heartbeat.hpp
+[7.646s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_utils/include/rm_utils/logger/README.md
+[7.646s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_utils/include/rm_utils/logger/exception.hpp
+[7.646s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_utils/include/rm_utils/logger/impl/global_mutex.hpp
+[7.646s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_utils/include/rm_utils/logger/impl/logger_impl.hpp
+[7.646s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_utils/include/rm_utils/logger/impl/writer.hpp
+[7.646s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_utils/include/rm_utils/logger/log.hpp
+[7.646s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_utils/include/rm_utils/logger/logger_pool.hpp
+[7.646s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_utils/include/rm_utils/logger/types.hpp
+[7.646s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_utils/include/rm_utils/math/extended_kalman_filter.hpp
+[7.647s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_utils/include/rm_utils/math/manual_compensator.hpp
+[7.647s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_utils/include/rm_utils/math/particle_filter.hpp
+[7.652s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_utils/include/rm_utils/math/pnp_solver.hpp
+[7.652s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_utils/include/rm_utils/math/trajectory_compensator.hpp
+[7.653s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_utils/include/rm_utils/math/utils.hpp
+[7.653s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_utils/include/rm_utils/url_resolver.hpp
+[7.653s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_utils/share/rm_utils/environment/library_path.sh
+[7.653s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_utils/share/rm_utils/environment/library_path.dsv
+[7.653s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_utils/share/ament_index/resource_index/package_run_dependencies/rm_utils
+[7.653s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_utils/share/ament_index/resource_index/parent_prefix_path/rm_utils
+[7.653s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_utils/share/rm_utils/environment/ament_prefix_path.sh
+[7.653s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_utils/share/rm_utils/environment/ament_prefix_path.dsv
+[7.653s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_utils/share/rm_utils/environment/path.sh
+[7.653s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_utils/share/rm_utils/environment/path.dsv
+[7.653s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_utils/share/rm_utils/local_setup.bash
+[7.654s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_utils/share/rm_utils/local_setup.sh
+[7.654s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_utils/share/rm_utils/local_setup.zsh
+[7.654s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_utils/share/rm_utils/local_setup.dsv
+[7.654s] -- Symlinking: /home/xinzhu/sentry_ws/install/rm_utils/share/rm_utils/package.dsv
+[7.665s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_utils/share/ament_index/resource_index/packages/rm_utils
+[7.665s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_utils/share/rm_utils/cmake/ament_cmake_export_targets-extras.cmake
+[7.667s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_utils/share/rm_utils/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.667s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_utils/share/rm_utils/cmake/rm_utilsConfig.cmake
+[7.668s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_utils/share/rm_utils/cmake/rm_utilsConfig-version.cmake
+[7.668s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_utils/share/rm_utils/package.xml
+[7.670s] -- Installing: /home/xinzhu/sentry_ws/install/rm_utils/lib/librm_utils.so
+[7.671s] -- Set non-toolchain portion of runtime path of "/home/xinzhu/sentry_ws/install/rm_utils/lib/librm_utils.so" to ""
+[7.672s] -- Installing: /home/xinzhu/sentry_ws/install/rm_utils/lib/libfytlogger.so
+[7.673s] -- Up-to-date: /home/xinzhu/sentry_ws/install/rm_utils/share/rm_utils/cmake/rm_utilsExport.cmake
+[7.673s] -- Up-to-date: /home/xinzhu/sentry_ws/install/rm_utils/share/rm_utils/cmake/rm_utilsExport-release.cmake
+[7.675s] -- Up-to-date: /home/xinzhu/sentry_ws/install/rm_utils/share/rm_utils/cmake/fytloggerExport.cmake
+[7.675s] -- Up-to-date: /home/xinzhu/sentry_ws/install/rm_utils/share/rm_utils/cmake/fytloggerExport-release.cmake
+[7.678s] Invoked command in '/home/xinzhu/sentry_ws/build/rm_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinzhu/Desktop/sentry_ws/install/control_panel:/opt/ros/humble PS1=%F{green}%n@%m%f%F{white}:%f%F{blue}%~%f%F{white}$%f /usr/local/bin/cmake --install /home/xinzhu/sentry_ws/build/rm_utils

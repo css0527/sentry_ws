@@ -1,0 +1,25 @@
+[ 33%] Built target transform_publisher
+[ 66%] Built target sac_ia_gicp
+[100%] Built target icp_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/xinzhu/sentry_ws/install/icp_relocalization/share/icp_relocalization/launch/icp.launch.py
+-- Up-to-date symlink: /home/xinzhu/sentry_ws/install/icp_relocalization/share/icp_relocalization/launch/sac_ia_gicp.launch.py
+-- Up-to-date symlink: /home/xinzhu/sentry_ws/install/icp_relocalization/lib/icp_relocalization/icp_node
+-- Up-to-date symlink: /home/xinzhu/sentry_ws/install/icp_relocalization/lib/icp_relocalization/transform_publisher
+-- Up-to-date symlink: /home/xinzhu/sentry_ws/install/icp_relocalization/lib/icp_relocalization/sac_ia_gicp
+-- Up-to-date symlink: /home/xinzhu/sentry_ws/install/icp_relocalization/share/ament_index/resource_index/package_run_dependencies/icp_relocalization
+-- Up-to-date symlink: /home/xinzhu/sentry_ws/install/icp_relocalization/share/ament_index/resource_index/parent_prefix_path/icp_relocalization
+-- Up-to-date symlink: /home/xinzhu/sentry_ws/install/icp_relocalization/share/icp_relocalization/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/xinzhu/sentry_ws/install/icp_relocalization/share/icp_relocalization/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/xinzhu/sentry_ws/install/icp_relocalization/share/icp_relocalization/environment/path.sh
+-- Up-to-date symlink: /home/xinzhu/sentry_ws/install/icp_relocalization/share/icp_relocalization/environment/path.dsv
+-- Up-to-date symlink: /home/xinzhu/sentry_ws/install/icp_relocalization/share/icp_relocalization/local_setup.bash
+-- Up-to-date symlink: /home/xinzhu/sentry_ws/install/icp_relocalization/share/icp_relocalization/local_setup.sh
+-- Up-to-date symlink: /home/xinzhu/sentry_ws/install/icp_relocalization/share/icp_relocalization/local_setup.zsh
+-- Up-to-date symlink: /home/xinzhu/sentry_ws/install/icp_relocalization/share/icp_relocalization/local_setup.dsv
+-- Symlinking: /home/xinzhu/sentry_ws/install/icp_relocalization/share/icp_relocalization/package.dsv
+-- Up-to-date symlink: /home/xinzhu/sentry_ws/install/icp_relocalization/share/ament_index/resource_index/packages/icp_relocalization
+-- Up-to-date symlink: /home/xinzhu/sentry_ws/install/icp_relocalization/share/icp_relocalization/cmake/icp_relocalizationConfig.cmake
+-- Up-to-date symlink: /home/xinzhu/sentry_ws/install/icp_relocalization/share/icp_relocalization/cmake/icp_relocalizationConfig-version.cmake
+-- Up-to-date symlink: /home/xinzhu/sentry_ws/install/icp_relocalization/share/icp_relocalization/package.xml

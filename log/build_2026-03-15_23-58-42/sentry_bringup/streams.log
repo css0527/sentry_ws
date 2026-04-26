@@ -1,0 +1,51 @@
+[0.330s] Invoking command in '/home/xinzhu/sentry_ws/build/sentry_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinzhu/Desktop/sentry_ws/install/control_panel:/opt/ros/humble PS1=%F{green}%n@%m%f%F{white}:%f%F{blue}%~%f%F{white}$%f /usr/local/bin/cmake --build /home/xinzhu/sentry_ws/build/sentry_bringup -- -j16 -l16
+[0.408s] Invoked command in '/home/xinzhu/sentry_ws/build/sentry_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinzhu/Desktop/sentry_ws/install/control_panel:/opt/ros/humble PS1=%F{green}%n@%m%f%F{white}:%f%F{blue}%~%f%F{white}$%f /usr/local/bin/cmake --build /home/xinzhu/sentry_ws/build/sentry_bringup -- -j16 -l16
+[0.409s] Invoking command in '/home/xinzhu/sentry_ws/build/sentry_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinzhu/Desktop/sentry_ws/install/control_panel:/opt/ros/humble PS1=%F{green}%n@%m%f%F{white}:%f%F{blue}%~%f%F{white}$%f /usr/local/bin/cmake --install /home/xinzhu/sentry_ws/build/sentry_bringup
+[0.430s] -- Install configuration: "Release"
+[0.430s] -- Execute custom install script
+[0.430s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/sentry_bringup/share/sentry_bringup/launch/bringup_all_in_one.launch.py
+[0.430s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/sentry_bringup/share/sentry_bringup/launch/bringup_without_relocalization.py
+[0.430s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/sentry_bringup/share/sentry_bringup/launch/mapping.launch.py
+[0.430s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/sentry_bringup/share/sentry_bringup/launch/navigation.launch.py
+[0.430s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/sentry_bringup/share/sentry_bringup/launch/octomap_server_intensity.launch.py
+[0.430s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/sentry_bringup/share/sentry_bringup/launch/relocalization.launch.py
+[0.431s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/sentry_bringup/share/sentry_bringup/launch/view_map.py
+[0.431s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/sentry_bringup/share/sentry_bringup/maps/GlobalMap.pcd
+[0.431s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/sentry_bringup/share/sentry_bringup/maps/GlobalMap2.pcd
+[0.431s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/sentry_bringup/share/sentry_bringup/maps/RMUC2024_2.pcd
+[0.431s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/sentry_bringup/share/sentry_bringup/maps/RMUL.png
+[0.431s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/sentry_bringup/share/sentry_bringup/maps/RMUL.yaml
+[0.431s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/sentry_bringup/share/sentry_bringup/maps/map.pcd
+[0.431s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/sentry_bringup/share/sentry_bringup/maps/rmuc2024.png
+[0.431s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/sentry_bringup/share/sentry_bringup/maps/rmuc2024.yaml
+[0.431s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/sentry_bringup/share/sentry_bringup/maps/test_map.png
+[0.431s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/sentry_bringup/share/sentry_bringup/maps/test_map.yaml
+[0.431s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/sentry_bringup/share/sentry_bringup/params/fast_lio_mapping_param.yaml
+[0.431s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/sentry_bringup/share/sentry_bringup/params/fast_lio_relocalization_param.yaml
+[0.431s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/sentry_bringup/share/sentry_bringup/params/fast_lio_sam_mapping_param.yaml
+[0.431s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/sentry_bringup/share/sentry_bringup/params/nav2_params.yaml
+[0.431s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/sentry_bringup/share/sentry_bringup/params/segmentation_params.yaml
+[0.431s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/sentry_bringup/share/sentry_bringup/behavior_tree/nav_to_pose_with_consistent_replanning_and_if_path_becomes_invalid.xml
+[0.431s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/sentry_bringup/share/sentry_bringup/behavior_tree/navigate_through_pose_w_replanning_and_recovery.xml
+[0.432s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/sentry_bringup/share/sentry_bringup/behavior_tree/navigate_to_pose_w_replanning_and_recovery.xml
+[0.432s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/sentry_bringup/share/sentry_bringup/behavior_tree/navigate_to_pose_w_replanning_goal_patience_and_recovery.xml
+[0.432s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/sentry_bringup/share/sentry_bringup/behavior_tree/navigate_w_recovery_and_replanning_only_if_path_becomes_invalid.xml
+[0.432s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/sentry_bringup/share/sentry_bringup/rviz/compare.rviz
+[0.432s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/sentry_bringup/share/sentry_bringup/rviz/loam_livox.rviz
+[0.432s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/sentry_bringup/share/sentry_bringup/rviz/nav2_default_view.rviz
+[0.432s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/sentry_bringup/share/ament_index/resource_index/package_run_dependencies/sentry_bringup
+[0.432s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/sentry_bringup/share/ament_index/resource_index/parent_prefix_path/sentry_bringup
+[0.432s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/sentry_bringup/share/sentry_bringup/environment/ament_prefix_path.sh
+[0.432s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/sentry_bringup/share/sentry_bringup/environment/ament_prefix_path.dsv
+[0.432s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/sentry_bringup/share/sentry_bringup/environment/path.sh
+[0.432s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/sentry_bringup/share/sentry_bringup/environment/path.dsv
+[0.434s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/sentry_bringup/share/sentry_bringup/local_setup.bash
+[0.434s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/sentry_bringup/share/sentry_bringup/local_setup.sh
+[0.434s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/sentry_bringup/share/sentry_bringup/local_setup.zsh
+[0.435s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/sentry_bringup/share/sentry_bringup/local_setup.dsv
+[0.435s] -- Symlinking: /home/xinzhu/sentry_ws/install/sentry_bringup/share/sentry_bringup/package.dsv
+[0.435s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/sentry_bringup/share/ament_index/resource_index/packages/sentry_bringup
+[0.435s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/sentry_bringup/share/sentry_bringup/cmake/sentry_bringupConfig.cmake
+[0.435s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/sentry_bringup/share/sentry_bringup/cmake/sentry_bringupConfig-version.cmake
+[0.435s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/sentry_bringup/share/sentry_bringup/package.xml
+[0.535s] Invoked command in '/home/xinzhu/sentry_ws/build/sentry_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinzhu/Desktop/sentry_ws/install/control_panel:/opt/ros/humble PS1=%F{green}%n@%m%f%F{white}:%f%F{blue}%~%f%F{white}$%f /usr/local/bin/cmake --install /home/xinzhu/sentry_ws/build/sentry_bringup

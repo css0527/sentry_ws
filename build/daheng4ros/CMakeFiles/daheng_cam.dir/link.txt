@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -shared -Wl,-soname,libdaheng_cam.so -o libdaheng_cam.so CMakeFiles/daheng_cam.dir/src/camera.cpp.o   -L/home/xinzhu/Documents/Galaxy_Linux-x86/Galaxy_camera/lib  -Wl,-rpath,/home/xinzhu/Documents/Galaxy_Linux-x86/Galaxy_camera/lib -lgxiapi

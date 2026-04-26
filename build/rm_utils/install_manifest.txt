@@ -1,0 +1,6 @@
+/home/xinzhu/sentry_ws/install/rm_utils/lib/librm_utils.so
+/home/xinzhu/sentry_ws/install/rm_utils/lib/libfytlogger.so
+/home/xinzhu/sentry_ws/install/rm_utils/share/rm_utils/cmake/rm_utilsExport.cmake
+/home/xinzhu/sentry_ws/install/rm_utils/share/rm_utils/cmake/rm_utilsExport-release.cmake
+/home/xinzhu/sentry_ws/install/rm_utils/share/rm_utils/cmake/fytloggerExport.cmake
+/home/xinzhu/sentry_ws/install/rm_utils/share/rm_utils/cmake/fytloggerExport-release.cmake

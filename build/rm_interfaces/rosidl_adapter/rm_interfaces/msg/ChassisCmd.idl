@@ -1,0 +1,37 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rm_interfaces/msg/ChassisCmd.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Twist.idl"
+
+module rm_interfaces {
+  module msg {
+    module ChassisCmd_Constants {
+      @verbatim (language="comment", text=
+        "velocity control, (vx,vy,w) in chassis frame.")
+      const uint8 VELOCITY = 1;
+      @verbatim (language="comment", text=
+        "no spin" "\n"        "(vx,vy) in gimbal's yaw frame.")
+      const uint8 FOLLOW_GIMBAL = 2;
+      @verbatim (language="comment", text=
+        "velocity control, swing around gimbal's yaw automatically," "\n"        "(vx,vy) in gimbal's yaw frame.")
+      const uint8 SWING = 3;
+      @verbatim (language="comment", text=
+        "spin" "\n"        "(vx,vy) in gimbal's yaw frame.")
+      const uint8 SPIN = 4;
+    };
+    @verbatim (language="comment", text=
+      "cmd msg for controlling chassis" "\n"
+      "constants for control type")
+    struct ChassisCmd {
+      @verbatim (language="comment", text=
+        "control type")
+      @default (value=1)
+      uint8 type;
+
+      @verbatim (language="comment", text=
+        "control data")
+      geometry_msgs::msg::Twist twist;
+    };
+  };
+};
