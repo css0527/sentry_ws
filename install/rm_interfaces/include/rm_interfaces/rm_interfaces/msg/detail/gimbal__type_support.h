@@ -1,1 +1,0 @@
-/home/xinzhu/sentry_ws/build/rm_interfaces/rosidl_generator_c/rm_interfaces/msg/detail/gimbal__type_support.h

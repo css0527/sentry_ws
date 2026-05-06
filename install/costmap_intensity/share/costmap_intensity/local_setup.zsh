@@ -1,1 +1,0 @@
-/home/xinzhu/sentry_ws/build/costmap_intensity/ament_cmake_environment_hooks/local_setup.zsh

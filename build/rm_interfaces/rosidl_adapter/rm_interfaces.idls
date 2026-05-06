@@ -1,7 +1,0 @@
-/home/xinzhu/sentry_ws/build/rm_interfaces/rosidl_adapter/rm_interfaces:msg/GameState.idl
-/home/xinzhu/sentry_ws/build/rm_interfaces/rosidl_adapter/rm_interfaces:msg/SentryCmd.idl
-/home/xinzhu/sentry_ws/build/rm_interfaces/rosidl_adapter/rm_interfaces:msg/ChassisCmd.idl
-/home/xinzhu/sentry_ws/build/rm_interfaces/rosidl_adapter/rm_interfaces:msg/Gimbal.idl
-/home/xinzhu/sentry_ws/build/rm_interfaces/rosidl_adapter/rm_interfaces:msg/GimbalCmd.idl
-/home/xinzhu/sentry_ws/build/rm_interfaces/rosidl_adapter/rm_interfaces:msg/ShootCmd.idl
-/home/xinzhu/sentry_ws/build/rm_interfaces/rosidl_adapter/rm_interfaces:msg/RobotMode.idl

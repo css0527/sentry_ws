@@ -1,1 +1,0 @@
-/home/xinzhu/sentry_ws/src/icp_relocalization/launch/icp.launch.py

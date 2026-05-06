@@ -1,1 +1,0 @@
-/home/xinzhu/sentry_ws/build/armor_solver/ament_cmake_core/armor_solverConfig.cmake
