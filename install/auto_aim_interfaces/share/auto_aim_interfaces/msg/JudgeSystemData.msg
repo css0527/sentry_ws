@@ -1,0 +1,1 @@
+/home/xinzhu/sentry_ws/src/auto_aim_interfaces/msg/JudgeSystemData.msg

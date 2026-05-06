@@ -1,0 +1,1 @@
+/home/xinzhu/sentry_ws/build/rm_interfaces/rosidl_typesupport_introspection_c/rm_interfaces/msg/detail/robot_mode__rosidl_typesupport_introspection_c.h

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/xinzhu/sentry_ws/build/behavior_ext_plugins/libbehavior_ext_plugins_lib.so" "TARGETS" "behavior_ext_plugins_lib" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "lib/behavior_ext_plugins")

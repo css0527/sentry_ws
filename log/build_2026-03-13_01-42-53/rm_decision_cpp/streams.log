@@ -1,0 +1,233 @@
+[0.012s] Invoking command in '/home/xinzhu/sentry_ws/build/rm_decision_cpp': AMENT_PREFIX_PATH=/home/xinzhu/sentry_ws/install/rm_interfaces:/home/xinzhu/sentry_ws/install/behaviortree_cpp:/home/xinzhu/sentry_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xinzhu/sentry_ws/install/rm_interfaces:/home/xinzhu/sentry_ws/install/behaviortree_cpp:/home/xinzhu/sentry_ws/install/auto_aim_interfaces:/home/xinzhu/Desktop/sentry_ws/install/terrain_analysis_ext:/home/xinzhu/Desktop/sentry_ws/install/terrain_analysis:/home/xinzhu/Desktop/sentry_ws/install/sentry_description:/home/xinzhu/Desktop/sentry_ws/install/sentry_bringup:/home/xinzhu/Desktop/sentry_ws/install/sensor_scan_generation:/home/xinzhu/Desktop/sentry_ws/install/rm_bringup:/home/xinzhu/Desktop/sentry_ws/install/rm_serial_driver:/home/xinzhu/Desktop/sentry_ws/install/rm_camera_driver:/home/xinzhu/Desktop/sentry_ws/install/rm_auto_aim:/home/xinzhu/Desktop/sentry_ws/install/armor_solver:/home/xinzhu/Desktop/sentry_ws/install/armor_detector:/home/xinzhu/Desktop/sentry_ws/install/rm_utils:/home/xinzhu/Desktop/sentry_ws/install/rm_robot_description:/home/xinzhu/Desktop/sentry_ws/install/rm_decision_cpp:/home/xinzhu/Desktop/sentry_ws/install/cmd_chassis:/home/xinzhu/Desktop/sentry_ws/install/rm_interfaces:/home/xinzhu/Desktop/sentry_ws/install/fast_lio:/home/xinzhu/Desktop/sentry_ws/install/livox_ros_driver2:/home/xinzhu/Desktop/sentry_ws/install/icp_relocalization:/home/xinzhu/Desktop/sentry_ws/install/costmap_intensity:/home/xinzhu/Desktop/sentry_ws/install/behaviortree_cpp:/home/xinzhu/Desktop/sentry_ws/install/behavior_ext_plugins:/home/xinzhu/Desktop/sentry_ws/install/auto_aim_interfaces:/home/xinzhu/Desktop/sentry_ws/install/control_panel:/opt/ros/humble LD_LIBRARY_PATH=/home/xinzhu/sentry_ws/install/rm_interfaces/lib:/home/xinzhu/sentry_ws/install/behaviortree_cpp/lib:/home/xinzhu/sentry_ws/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/xinzhu/sentry_ws/install/behaviortree_cpp/bin:${PATH} PS1=%F{green}%n@%m%f%F{white}:%f%F{blue}%~%f%F{white}$%f PYTHONPATH=/home/xinzhu/sentry_ws/install/rm_interfaces/local/lib/python3.10/dist-packages:/home/xinzhu/sentry_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/xinzhu/sentry_ws/src/rm_decision_cpp -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xinzhu/sentry_ws/install/rm_decision_cpp
+[0.050s] -- The C compiler identification is GNU 11.4.0
+[0.094s] -- The CXX compiler identification is GNU 11.4.0
+[0.099s] -- Detecting C compiler ABI info
+[0.141s] -- Detecting C compiler ABI info - done
+[0.152s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.152s] -- Detecting C compile features
+[0.152s] -- Detecting C compile features - done
+[0.161s] -- Detecting CXX compiler ABI info
+[0.212s] -- Detecting CXX compiler ABI info - done
+[0.224s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.224s] -- Detecting CXX compile features
+[0.224s] -- Detecting CXX compile features - done
+[0.231s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.328s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.374s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.405s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[0.444s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.448s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.456s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.466s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.480s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.520s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.523s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.591s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[0.616s] -- Found FastRTPS: /opt/ros/humble/include
+[0.649s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.657s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.705s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.705s] -- Found Threads: TRUE
+[0.749s] -- Found auto_aim_interfaces: 0.0.0 (/home/xinzhu/sentry_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake)
+[0.774s] -- Found rm_interfaces: 0.0.1 (/home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/cmake)
+[0.809s] -- Found rclcpp_components: 16.0.18 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.832s] -- Found nav2_msgs: 1.1.20 (/opt/ros/humble/share/nav2_msgs/cmake)
+[0.873s] -- Found nav2_util: 1.1.20 (/opt/ros/humble/share/nav2_util/cmake)
+[0.934s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.935s] -- Found Eigen3: TRUE (found version "3.4.0")
+[0.935s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.980s] -- Found behaviortree_cpp: 4.5.1 (/home/xinzhu/sentry_ws/install/behaviortree_cpp/share/behaviortree_cpp/cmake)
+[0.983s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.999s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.017s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[1.043s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:146 (find_package):
+[1.043s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[1.043s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[1.043s]   cmake_policy command to set the policy and suppress this warning.
+[1.043s] 
+[1.044s]   CMake variable EIGEN_ROOT is set to:
+[1.044s] 
+[1.044s]     /usr/include/eigen3
+[1.044s] 
+[1.044s]   For compatibility, find_package is ignoring the variable, but code in a
+[1.044s]   .cmake module might still use it.
+[1.044s] Call Stack (most recent call first):
+[1.044s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:299 (find_eigen)
+[1.044s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[1.044s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.044s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[1.044s]   CMakeLists.txt:24 (find_package)
+[1.044s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.044s] [0m
+[1.047s] -- Checking for module 'eigen3'
+[1.058s] --   Found eigen3, version 3.4.0
+[1.081s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1")
+[1.081s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.082s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:128 (find_package):
+[1.082s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[1.082s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[1.082s]   set the policy and suppress this warning.
+[1.082s] 
+[1.082s] Call Stack (most recent call first):
+[1.082s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:297 (find_boost)
+[1.082s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[1.082s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.082s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[1.082s]   CMakeLists.txt:24 (find_package)
+[1.082s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.082s] [0m
+[1.102s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:44 (find_package):
+[1.102s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[1.102s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[1.102s]   cmake_policy command to set the policy and suppress this warning.
+[1.102s] 
+[1.102s]   CMake variable FLANN_ROOT is set to:
+[1.102s] 
+[1.102s]     /usr
+[1.102s] 
+[1.102s]   For compatibility, find_package is ignoring the variable, but code in a
+[1.102s]   .cmake module might still use it.
+[1.102s] Call Stack (most recent call first):
+[1.102s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:256 (find_package)
+[1.102s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:301 (find_flann)
+[1.102s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[1.102s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.102s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[1.103s]   CMakeLists.txt:24 (find_package)
+[1.103s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.103s] [0m
+[1.113s] -- Checking for module 'flann'
+[1.124s] --   Found flann, version 1.9.1
+[1.155s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so
+[1.155s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.881s] -- Checking for module 'libusb-1.0'
+[1.893s] --   Found libusb-1.0, version 1.0.25
+[1.921s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so
+[1.922s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.967s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.141s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:128 (find_package):
+[2.141s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[2.141s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[2.141s]   set the policy and suppress this warning.
+[2.141s] 
+[2.141s] Call Stack (most recent call first):
+[2.141s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:297 (find_boost)
+[2.141s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[2.141s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[2.141s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[2.141s]   CMakeLists.txt:24 (find_package)
+[2.141s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.141s] [0m
+[2.149s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.153s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.159s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.335s] -- Found Qhull version 8.0.2
+[2.514s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.690s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so
+[2.690s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so
+[2.691s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so
+[2.692s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so
+[2.693s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so
+[2.693s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so
+[2.694s] -- Found PCL_2D: /usr/include/pcl-1.12
+[2.694s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12
+[2.694s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so
+[2.695s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so
+[2.696s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so
+[2.697s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so
+[2.698s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so
+[2.698s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so
+[2.699s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so
+[2.700s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so
+[2.701s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so
+[2.702s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so
+[2.702s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so
+[2.703s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so
+[2.704s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12
+[2.704s] -- Found PCL_MODELER: /usr/include/pcl-1.12
+[2.704s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12
+[2.705s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so
+[2.706s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so
+[2.709s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[2.719s] [33mCMake Warning (dev) at CMakeLists.txt:26 (find_package):
+[2.719s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[2.720s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[2.720s]   command to set the policy and suppress this warning.
+[2.720s] 
+[2.720s]   CMake variable PCL_ROOT is set to:
+[2.720s] 
+[2.720s]     /usr
+[2.720s] 
+[2.720s]   For compatibility, CMake is ignoring the variable.
+[2.720s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.720s] [0m
+[2.839s] -- Configuring done (2.8s)
+[2.905s] -- Generating done (0.1s)
+[2.910s] -- Build files have been written to: /home/xinzhu/sentry_ws/build/rm_decision_cpp
+[2.924s] Invoked command in '/home/xinzhu/sentry_ws/build/rm_decision_cpp' returned '0': AMENT_PREFIX_PATH=/home/xinzhu/sentry_ws/install/rm_interfaces:/home/xinzhu/sentry_ws/install/behaviortree_cpp:/home/xinzhu/sentry_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xinzhu/sentry_ws/install/rm_interfaces:/home/xinzhu/sentry_ws/install/behaviortree_cpp:/home/xinzhu/sentry_ws/install/auto_aim_interfaces:/home/xinzhu/Desktop/sentry_ws/install/terrain_analysis_ext:/home/xinzhu/Desktop/sentry_ws/install/terrain_analysis:/home/xinzhu/Desktop/sentry_ws/install/sentry_description:/home/xinzhu/Desktop/sentry_ws/install/sentry_bringup:/home/xinzhu/Desktop/sentry_ws/install/sensor_scan_generation:/home/xinzhu/Desktop/sentry_ws/install/rm_bringup:/home/xinzhu/Desktop/sentry_ws/install/rm_serial_driver:/home/xinzhu/Desktop/sentry_ws/install/rm_camera_driver:/home/xinzhu/Desktop/sentry_ws/install/rm_auto_aim:/home/xinzhu/Desktop/sentry_ws/install/armor_solver:/home/xinzhu/Desktop/sentry_ws/install/armor_detector:/home/xinzhu/Desktop/sentry_ws/install/rm_utils:/home/xinzhu/Desktop/sentry_ws/install/rm_robot_description:/home/xinzhu/Desktop/sentry_ws/install/rm_decision_cpp:/home/xinzhu/Desktop/sentry_ws/install/cmd_chassis:/home/xinzhu/Desktop/sentry_ws/install/rm_interfaces:/home/xinzhu/Desktop/sentry_ws/install/fast_lio:/home/xinzhu/Desktop/sentry_ws/install/livox_ros_driver2:/home/xinzhu/Desktop/sentry_ws/install/icp_relocalization:/home/xinzhu/Desktop/sentry_ws/install/costmap_intensity:/home/xinzhu/Desktop/sentry_ws/install/behaviortree_cpp:/home/xinzhu/Desktop/sentry_ws/install/behavior_ext_plugins:/home/xinzhu/Desktop/sentry_ws/install/auto_aim_interfaces:/home/xinzhu/Desktop/sentry_ws/install/control_panel:/opt/ros/humble LD_LIBRARY_PATH=/home/xinzhu/sentry_ws/install/rm_interfaces/lib:/home/xinzhu/sentry_ws/install/behaviortree_cpp/lib:/home/xinzhu/sentry_ws/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/xinzhu/sentry_ws/install/behaviortree_cpp/bin:${PATH} PS1=%F{green}%n@%m%f%F{white}:%f%F{blue}%~%f%F{white}$%f PYTHONPATH=/home/xinzhu/sentry_ws/install/rm_interfaces/local/lib/python3.10/dist-packages:/home/xinzhu/sentry_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/xinzhu/sentry_ws/src/rm_decision_cpp -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xinzhu/sentry_ws/install/rm_decision_cpp
+[2.925s] Invoking command in '/home/xinzhu/sentry_ws/build/rm_decision_cpp': AMENT_PREFIX_PATH=/home/xinzhu/sentry_ws/install/rm_interfaces:/home/xinzhu/sentry_ws/install/behaviortree_cpp:/home/xinzhu/sentry_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xinzhu/sentry_ws/install/rm_interfaces:/home/xinzhu/sentry_ws/install/behaviortree_cpp:/home/xinzhu/sentry_ws/install/auto_aim_interfaces:/home/xinzhu/Desktop/sentry_ws/install/terrain_analysis_ext:/home/xinzhu/Desktop/sentry_ws/install/terrain_analysis:/home/xinzhu/Desktop/sentry_ws/install/sentry_description:/home/xinzhu/Desktop/sentry_ws/install/sentry_bringup:/home/xinzhu/Desktop/sentry_ws/install/sensor_scan_generation:/home/xinzhu/Desktop/sentry_ws/install/rm_bringup:/home/xinzhu/Desktop/sentry_ws/install/rm_serial_driver:/home/xinzhu/Desktop/sentry_ws/install/rm_camera_driver:/home/xinzhu/Desktop/sentry_ws/install/rm_auto_aim:/home/xinzhu/Desktop/sentry_ws/install/armor_solver:/home/xinzhu/Desktop/sentry_ws/install/armor_detector:/home/xinzhu/Desktop/sentry_ws/install/rm_utils:/home/xinzhu/Desktop/sentry_ws/install/rm_robot_description:/home/xinzhu/Desktop/sentry_ws/install/rm_decision_cpp:/home/xinzhu/Desktop/sentry_ws/install/cmd_chassis:/home/xinzhu/Desktop/sentry_ws/install/rm_interfaces:/home/xinzhu/Desktop/sentry_ws/install/fast_lio:/home/xinzhu/Desktop/sentry_ws/install/livox_ros_driver2:/home/xinzhu/Desktop/sentry_ws/install/icp_relocalization:/home/xinzhu/Desktop/sentry_ws/install/costmap_intensity:/home/xinzhu/Desktop/sentry_ws/install/behaviortree_cpp:/home/xinzhu/Desktop/sentry_ws/install/behavior_ext_plugins:/home/xinzhu/Desktop/sentry_ws/install/auto_aim_interfaces:/home/xinzhu/Desktop/sentry_ws/install/control_panel:/opt/ros/humble LD_LIBRARY_PATH=/home/xinzhu/sentry_ws/install/rm_interfaces/lib:/home/xinzhu/sentry_ws/install/behaviortree_cpp/lib:/home/xinzhu/sentry_ws/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/xinzhu/sentry_ws/install/behaviortree_cpp/bin:${PATH} PS1=%F{green}%n@%m%f%F{white}:%f%F{blue}%~%f%F{white}$%f PYTHONPATH=/home/xinzhu/sentry_ws/install/rm_interfaces/local/lib/python3.10/dist-packages:/home/xinzhu/sentry_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/xinzhu/sentry_ws/build/rm_decision_cpp -- -j16 -l16
+[2.954s] [  7%] [32mBuilding CXX object CMakeFiles/tree_exec_node.dir/src/custume_types.cpp.o[0m
+[2.954s] [  7%] [32mBuilding CXX object CMakeFiles/rm_decision_cpp.dir/src/custume_types.cpp.o[0m
+[2.954s] [ 14%] [32mBuilding CXX object CMakeFiles/tree_exec_node.dir/src/behaviors/attack.cpp.o[0m
+[2.954s] [ 14%] [32mBuilding CXX object CMakeFiles/tree_exec_node.dir/src/behaviors/nav2pose.cpp.o[0m
+[2.954s] [ 22%] [32mBuilding CXX object CMakeFiles/rm_decision_cpp.dir/src/behaviors/attack.cpp.o[0m
+[2.954s] [ 22%] [32mBuilding CXX object CMakeFiles/tree_exec_node.dir/src/tree_exec_node.cpp.o[0m
+[2.954s] [ 25%] [32mBuilding CXX object CMakeFiles/rm_decision_cpp.dir/src/behaviors/anti_autoaim.cpp.o[0m
+[2.954s] [ 33%] [32mBuilding CXX object CMakeFiles/rm_decision_cpp.dir/src/behaviors/nav2pose.cpp.o[0m
+[2.954s] [ 33%] [32mBuilding CXX object CMakeFiles/tree_exec_node.dir/src/behaviors/anti_autoaim.cpp.o[0m
+[2.954s] [ 44%] [32mBuilding CXX object CMakeFiles/tree_exec_node.dir/src/behaviors/spin.cpp.o[0m
+[2.954s] [ 44%] [32mBuilding CXX object CMakeFiles/tree_exec_node.dir/src/behaviors/topics2blackboard.cpp.o[0m
+[2.954s] [ 44%] [32mBuilding CXX object CMakeFiles/rm_decision_cpp.dir/src/behaviors/spin.cpp.o[0m
+[2.954s] [ 51%] [32mBuilding CXX object CMakeFiles/rm_decision_cpp.dir/src/behaviors/topics2blackboard.cpp.o[0m
+[2.954s] [ 51%] [32mBuilding CXX object CMakeFiles/rm_decision_cpp.dir/src/behaviors/sentry_cmd.cpp.o[0m
+[3.966s] [ 55%] [32mBuilding CXX object CMakeFiles/tree_exec_node.dir/src/behaviors/control_gimbal.cpp.o[0m
+[3.967s] [ 59%] [32mBuilding CXX object CMakeFiles/tree_exec_node.dir/src/behaviors/sentry_cmd.cpp.o[0m
+[9.619s] [ 62%] [32mBuilding CXX object CMakeFiles/tree_exec_node.dir/src/behaviors/align_chassis.cpp.o[0m
+[9.865s] [ 66%] [32mBuilding CXX object CMakeFiles/rm_decision_cpp.dir/src/behaviors/control_gimbal.cpp.o[0m
+[22.321s] [ 74%] [32mBuilding CXX object CMakeFiles/rm_decision_cpp.dir/src/behaviors/mode_publisher.cpp.o[0m
+[22.321s] [ 74%] [32mBuilding CXX object CMakeFiles/rm_decision_cpp.dir/src/behaviors/chassis_type.cpp.o[0m
+[26.536s] [ 77%] [32mBuilding CXX object CMakeFiles/rm_decision_cpp.dir/src/behaviors/is_in_position.cpp.o[0m
+[26.536s] [ 81%] [32mBuilding CXX object CMakeFiles/rm_decision_cpp.dir/src/behaviors/align_chassis.cpp.o[0m
+[27.752s] [ 85%] [32mBuilding CXX object CMakeFiles/tree_exec_node.dir/src/behaviors/is_in_position.cpp.o[0m
+[27.753s] [ 88%] [32mBuilding CXX object CMakeFiles/tree_exec_node.dir/src/behaviors/mode_publisher.cpp.o[0m
+[27.753s] [ 92%] [32mBuilding CXX object CMakeFiles/tree_exec_node.dir/src/behaviors/chassis_type.cpp.o[0m
+[31.668s] [ 96%] [32m[1mLinking CXX shared library librm_decision_cpp.so[0m
+[32.174s] [100%] [32m[1mLinking CXX executable tree_exec_node[0m
+[32.231s] [100%] Built target rm_decision_cpp
+[32.714s] [100%] Built target tree_exec_node
+[32.718s] Invoked command in '/home/xinzhu/sentry_ws/build/rm_decision_cpp' returned '0': AMENT_PREFIX_PATH=/home/xinzhu/sentry_ws/install/rm_interfaces:/home/xinzhu/sentry_ws/install/behaviortree_cpp:/home/xinzhu/sentry_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xinzhu/sentry_ws/install/rm_interfaces:/home/xinzhu/sentry_ws/install/behaviortree_cpp:/home/xinzhu/sentry_ws/install/auto_aim_interfaces:/home/xinzhu/Desktop/sentry_ws/install/terrain_analysis_ext:/home/xinzhu/Desktop/sentry_ws/install/terrain_analysis:/home/xinzhu/Desktop/sentry_ws/install/sentry_description:/home/xinzhu/Desktop/sentry_ws/install/sentry_bringup:/home/xinzhu/Desktop/sentry_ws/install/sensor_scan_generation:/home/xinzhu/Desktop/sentry_ws/install/rm_bringup:/home/xinzhu/Desktop/sentry_ws/install/rm_serial_driver:/home/xinzhu/Desktop/sentry_ws/install/rm_camera_driver:/home/xinzhu/Desktop/sentry_ws/install/rm_auto_aim:/home/xinzhu/Desktop/sentry_ws/install/armor_solver:/home/xinzhu/Desktop/sentry_ws/install/armor_detector:/home/xinzhu/Desktop/sentry_ws/install/rm_utils:/home/xinzhu/Desktop/sentry_ws/install/rm_robot_description:/home/xinzhu/Desktop/sentry_ws/install/rm_decision_cpp:/home/xinzhu/Desktop/sentry_ws/install/cmd_chassis:/home/xinzhu/Desktop/sentry_ws/install/rm_interfaces:/home/xinzhu/Desktop/sentry_ws/install/fast_lio:/home/xinzhu/Desktop/sentry_ws/install/livox_ros_driver2:/home/xinzhu/Desktop/sentry_ws/install/icp_relocalization:/home/xinzhu/Desktop/sentry_ws/install/costmap_intensity:/home/xinzhu/Desktop/sentry_ws/install/behaviortree_cpp:/home/xinzhu/Desktop/sentry_ws/install/behavior_ext_plugins:/home/xinzhu/Desktop/sentry_ws/install/auto_aim_interfaces:/home/xinzhu/Desktop/sentry_ws/install/control_panel:/opt/ros/humble LD_LIBRARY_PATH=/home/xinzhu/sentry_ws/install/rm_interfaces/lib:/home/xinzhu/sentry_ws/install/behaviortree_cpp/lib:/home/xinzhu/sentry_ws/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/xinzhu/sentry_ws/install/behaviortree_cpp/bin:${PATH} PS1=%F{green}%n@%m%f%F{white}:%f%F{blue}%~%f%F{white}$%f PYTHONPATH=/home/xinzhu/sentry_ws/install/rm_interfaces/local/lib/python3.10/dist-packages:/home/xinzhu/sentry_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/xinzhu/sentry_ws/build/rm_decision_cpp -- -j16 -l16
+[32.719s] Invoking command in '/home/xinzhu/sentry_ws/build/rm_decision_cpp': AMENT_PREFIX_PATH=/home/xinzhu/sentry_ws/install/rm_interfaces:/home/xinzhu/sentry_ws/install/behaviortree_cpp:/home/xinzhu/sentry_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xinzhu/sentry_ws/install/rm_interfaces:/home/xinzhu/sentry_ws/install/behaviortree_cpp:/home/xinzhu/sentry_ws/install/auto_aim_interfaces:/home/xinzhu/Desktop/sentry_ws/install/terrain_analysis_ext:/home/xinzhu/Desktop/sentry_ws/install/terrain_analysis:/home/xinzhu/Desktop/sentry_ws/install/sentry_description:/home/xinzhu/Desktop/sentry_ws/install/sentry_bringup:/home/xinzhu/Desktop/sentry_ws/install/sensor_scan_generation:/home/xinzhu/Desktop/sentry_ws/install/rm_bringup:/home/xinzhu/Desktop/sentry_ws/install/rm_serial_driver:/home/xinzhu/Desktop/sentry_ws/install/rm_camera_driver:/home/xinzhu/Desktop/sentry_ws/install/rm_auto_aim:/home/xinzhu/Desktop/sentry_ws/install/armor_solver:/home/xinzhu/Desktop/sentry_ws/install/armor_detector:/home/xinzhu/Desktop/sentry_ws/install/rm_utils:/home/xinzhu/Desktop/sentry_ws/install/rm_robot_description:/home/xinzhu/Desktop/sentry_ws/install/rm_decision_cpp:/home/xinzhu/Desktop/sentry_ws/install/cmd_chassis:/home/xinzhu/Desktop/sentry_ws/install/rm_interfaces:/home/xinzhu/Desktop/sentry_ws/install/fast_lio:/home/xinzhu/Desktop/sentry_ws/install/livox_ros_driver2:/home/xinzhu/Desktop/sentry_ws/install/icp_relocalization:/home/xinzhu/Desktop/sentry_ws/install/costmap_intensity:/home/xinzhu/Desktop/sentry_ws/install/behaviortree_cpp:/home/xinzhu/Desktop/sentry_ws/install/behavior_ext_plugins:/home/xinzhu/Desktop/sentry_ws/install/auto_aim_interfaces:/home/xinzhu/Desktop/sentry_ws/install/control_panel:/opt/ros/humble LD_LIBRARY_PATH=/home/xinzhu/sentry_ws/install/rm_interfaces/lib:/home/xinzhu/sentry_ws/install/behaviortree_cpp/lib:/home/xinzhu/sentry_ws/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/xinzhu/sentry_ws/install/behaviortree_cpp/bin:${PATH} PS1=%F{green}%n@%m%f%F{white}:%f%F{blue}%~%f%F{white}$%f PYTHONPATH=/home/xinzhu/sentry_ws/install/rm_interfaces/local/lib/python3.10/dist-packages:/home/xinzhu/sentry_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/xinzhu/sentry_ws/build/rm_decision_cpp
+[32.722s] -- Install configuration: "Release"
+[32.722s] -- Execute custom install script
+[32.722s] -- Symlinking: /home/xinzhu/sentry_ws/install/rm_decision_cpp/lib/librm_decision_cpp.so
+[32.725s] -- Symlinking: /home/xinzhu/sentry_ws/install/rm_decision_cpp/lib/rm_decision_cpp/tree_exec_node
+[32.727s] -- Symlinking: /home/xinzhu/sentry_ws/install/rm_decision_cpp/share/rm_decision_cpp/launch/run.launch.py
+[32.730s] -- Symlinking: /home/xinzhu/sentry_ws/install/rm_decision_cpp/share/rm_decision_cpp/config/node_params.yaml
+[32.732s] -- Symlinking: /home/xinzhu/sentry_ws/install/rm_decision_cpp/include/rm_decision_cpp/behaviors/align_chassis.hpp
+[32.735s] -- Symlinking: /home/xinzhu/sentry_ws/install/rm_decision_cpp/include/rm_decision_cpp/behaviors/anti_autoaim.hpp
+[32.738s] -- Symlinking: /home/xinzhu/sentry_ws/install/rm_decision_cpp/include/rm_decision_cpp/behaviors/attack.hpp
+[32.741s] -- Symlinking: /home/xinzhu/sentry_ws/install/rm_decision_cpp/include/rm_decision_cpp/behaviors/chassis_type.hpp
+[32.743s] -- Symlinking: /home/xinzhu/sentry_ws/install/rm_decision_cpp/include/rm_decision_cpp/behaviors/control_gimbal.hpp
+[32.745s] -- Symlinking: /home/xinzhu/sentry_ws/install/rm_decision_cpp/include/rm_decision_cpp/behaviors/is_in_position.hpp
+[32.747s] -- Symlinking: /home/xinzhu/sentry_ws/install/rm_decision_cpp/include/rm_decision_cpp/behaviors/mode_publisher.hpp
+[32.750s] -- Symlinking: /home/xinzhu/sentry_ws/install/rm_decision_cpp/include/rm_decision_cpp/behaviors/nav2pose.hpp
+[32.753s] -- Symlinking: /home/xinzhu/sentry_ws/install/rm_decision_cpp/include/rm_decision_cpp/behaviors/sentry_cmd.hpp
+[32.756s] -- Symlinking: /home/xinzhu/sentry_ws/install/rm_decision_cpp/include/rm_decision_cpp/behaviors/spin.hpp
+[32.758s] -- Symlinking: /home/xinzhu/sentry_ws/install/rm_decision_cpp/include/rm_decision_cpp/behaviors/topics2blackboard.hpp
+[32.760s] -- Symlinking: /home/xinzhu/sentry_ws/install/rm_decision_cpp/include/rm_decision_cpp/custume_types.hpp
+[32.763s] -- Symlinking: /home/xinzhu/sentry_ws/install/rm_decision_cpp/share/ament_index/resource_index/package_run_dependencies/rm_decision_cpp
+[32.765s] -- Symlinking: /home/xinzhu/sentry_ws/install/rm_decision_cpp/share/ament_index/resource_index/parent_prefix_path/rm_decision_cpp
+[32.768s] -- Symlinking: /home/xinzhu/sentry_ws/install/rm_decision_cpp/share/rm_decision_cpp/environment/ament_prefix_path.sh
+[32.771s] -- Symlinking: /home/xinzhu/sentry_ws/install/rm_decision_cpp/share/rm_decision_cpp/environment/ament_prefix_path.dsv
+[32.773s] -- Symlinking: /home/xinzhu/sentry_ws/install/rm_decision_cpp/share/rm_decision_cpp/environment/path.sh
+[32.776s] -- Symlinking: /home/xinzhu/sentry_ws/install/rm_decision_cpp/share/rm_decision_cpp/environment/path.dsv
+[32.778s] -- Symlinking: /home/xinzhu/sentry_ws/install/rm_decision_cpp/share/rm_decision_cpp/local_setup.bash
+[32.781s] -- Symlinking: /home/xinzhu/sentry_ws/install/rm_decision_cpp/share/rm_decision_cpp/local_setup.sh
+[32.784s] -- Symlinking: /home/xinzhu/sentry_ws/install/rm_decision_cpp/share/rm_decision_cpp/local_setup.zsh
+[32.787s] -- Symlinking: /home/xinzhu/sentry_ws/install/rm_decision_cpp/share/rm_decision_cpp/local_setup.dsv
+[32.789s] -- Symlinking: /home/xinzhu/sentry_ws/install/rm_decision_cpp/share/rm_decision_cpp/package.dsv
+[32.792s] -- Symlinking: /home/xinzhu/sentry_ws/install/rm_decision_cpp/share/ament_index/resource_index/packages/rm_decision_cpp
+[32.795s] -- Symlinking: /home/xinzhu/sentry_ws/install/rm_decision_cpp/share/rm_decision_cpp/cmake/rm_decision_cppConfig.cmake
+[32.797s] -- Symlinking: /home/xinzhu/sentry_ws/install/rm_decision_cpp/share/rm_decision_cpp/cmake/rm_decision_cppConfig-version.cmake
+[32.800s] -- Symlinking: /home/xinzhu/sentry_ws/install/rm_decision_cpp/share/rm_decision_cpp/package.xml
+[32.803s] Invoked command in '/home/xinzhu/sentry_ws/build/rm_decision_cpp' returned '0': AMENT_PREFIX_PATH=/home/xinzhu/sentry_ws/install/rm_interfaces:/home/xinzhu/sentry_ws/install/behaviortree_cpp:/home/xinzhu/sentry_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xinzhu/sentry_ws/install/rm_interfaces:/home/xinzhu/sentry_ws/install/behaviortree_cpp:/home/xinzhu/sentry_ws/install/auto_aim_interfaces:/home/xinzhu/Desktop/sentry_ws/install/terrain_analysis_ext:/home/xinzhu/Desktop/sentry_ws/install/terrain_analysis:/home/xinzhu/Desktop/sentry_ws/install/sentry_description:/home/xinzhu/Desktop/sentry_ws/install/sentry_bringup:/home/xinzhu/Desktop/sentry_ws/install/sensor_scan_generation:/home/xinzhu/Desktop/sentry_ws/install/rm_bringup:/home/xinzhu/Desktop/sentry_ws/install/rm_serial_driver:/home/xinzhu/Desktop/sentry_ws/install/rm_camera_driver:/home/xinzhu/Desktop/sentry_ws/install/rm_auto_aim:/home/xinzhu/Desktop/sentry_ws/install/armor_solver:/home/xinzhu/Desktop/sentry_ws/install/armor_detector:/home/xinzhu/Desktop/sentry_ws/install/rm_utils:/home/xinzhu/Desktop/sentry_ws/install/rm_robot_description:/home/xinzhu/Desktop/sentry_ws/install/rm_decision_cpp:/home/xinzhu/Desktop/sentry_ws/install/cmd_chassis:/home/xinzhu/Desktop/sentry_ws/install/rm_interfaces:/home/xinzhu/Desktop/sentry_ws/install/fast_lio:/home/xinzhu/Desktop/sentry_ws/install/livox_ros_driver2:/home/xinzhu/Desktop/sentry_ws/install/icp_relocalization:/home/xinzhu/Desktop/sentry_ws/install/costmap_intensity:/home/xinzhu/Desktop/sentry_ws/install/behaviortree_cpp:/home/xinzhu/Desktop/sentry_ws/install/behavior_ext_plugins:/home/xinzhu/Desktop/sentry_ws/install/auto_aim_interfaces:/home/xinzhu/Desktop/sentry_ws/install/control_panel:/opt/ros/humble LD_LIBRARY_PATH=/home/xinzhu/sentry_ws/install/rm_interfaces/lib:/home/xinzhu/sentry_ws/install/behaviortree_cpp/lib:/home/xinzhu/sentry_ws/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/xinzhu/sentry_ws/install/behaviortree_cpp/bin:${PATH} PS1=%F{green}%n@%m%f%F{white}:%f%F{blue}%~%f%F{white}$%f PYTHONPATH=/home/xinzhu/sentry_ws/install/rm_interfaces/local/lib/python3.10/dist-packages:/home/xinzhu/sentry_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/xinzhu/sentry_ws/build/rm_decision_cpp

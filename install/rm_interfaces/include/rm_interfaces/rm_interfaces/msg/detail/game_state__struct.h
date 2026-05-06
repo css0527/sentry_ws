@@ -1,0 +1,1 @@
+/home/xinzhu/sentry_ws/build/rm_interfaces/rosidl_generator_c/rm_interfaces/msg/detail/game_state__struct.h

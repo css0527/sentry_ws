@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from auto_aim_interfaces/msg/SerialReceiveData.msg
+// generated code does not contain a copyright notice
+
+#include "auto_aim_interfaces/msg/GameState.idl"
+#include "std_msgs/msg/Header.idl"
+
+module auto_aim_interfaces {
+  module msg {
+    struct SerialReceiveData {
+      std_msgs::msg::Header header;
+
+      uint8 mode;
+
+      float bullet_speed;
+
+      float roll;
+
+      float yaw;
+
+      float pitch;
+
+      auto_aim_interfaces::msg::GameState gamestate;
+    };
+  };
+};

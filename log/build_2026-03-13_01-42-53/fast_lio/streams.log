@@ -1,0 +1,433 @@
+[0.015s] Invoking command in '/home/xinzhu/sentry_ws/build/fast_lio': AMENT_PREFIX_PATH=/home/xinzhu/sentry_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xinzhu/sentry_ws/install/livox_ros_driver2:/home/xinzhu/Desktop/sentry_ws/install/terrain_analysis_ext:/home/xinzhu/Desktop/sentry_ws/install/terrain_analysis:/home/xinzhu/Desktop/sentry_ws/install/sentry_description:/home/xinzhu/Desktop/sentry_ws/install/sentry_bringup:/home/xinzhu/Desktop/sentry_ws/install/sensor_scan_generation:/home/xinzhu/Desktop/sentry_ws/install/rm_bringup:/home/xinzhu/Desktop/sentry_ws/install/rm_serial_driver:/home/xinzhu/Desktop/sentry_ws/install/rm_camera_driver:/home/xinzhu/Desktop/sentry_ws/install/rm_auto_aim:/home/xinzhu/Desktop/sentry_ws/install/armor_solver:/home/xinzhu/Desktop/sentry_ws/install/armor_detector:/home/xinzhu/Desktop/sentry_ws/install/rm_utils:/home/xinzhu/Desktop/sentry_ws/install/rm_robot_description:/home/xinzhu/Desktop/sentry_ws/install/rm_decision_cpp:/home/xinzhu/Desktop/sentry_ws/install/cmd_chassis:/home/xinzhu/Desktop/sentry_ws/install/rm_interfaces:/home/xinzhu/Desktop/sentry_ws/install/fast_lio:/home/xinzhu/Desktop/sentry_ws/install/livox_ros_driver2:/home/xinzhu/Desktop/sentry_ws/install/icp_relocalization:/home/xinzhu/Desktop/sentry_ws/install/costmap_intensity:/home/xinzhu/Desktop/sentry_ws/install/behaviortree_cpp:/home/xinzhu/Desktop/sentry_ws/install/behavior_ext_plugins:/home/xinzhu/Desktop/sentry_ws/install/auto_aim_interfaces:/home/xinzhu/Desktop/sentry_ws/install/control_panel:/opt/ros/humble LD_LIBRARY_PATH=/home/xinzhu/sentry_ws/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PS1=%F{green}%n@%m%f%F{white}:%f%F{blue}%~%f%F{white}$%f PYTHONPATH=/home/xinzhu/sentry_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/xinzhu/sentry_ws/src/FAST_LIO -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xinzhu/sentry_ws/install/fast_lio
+[0.018s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.018s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.018s]   CMake.
+[0.018s] 
+[0.018s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.018s]   to tell CMake that the project requires at least <min> but has been updated
+[0.018s]   to work with policies introduced by <max> or earlier.
+[0.018s] 
+[0.018s] [0m
+[0.067s] -- The C compiler identification is GNU 11.4.0
+[0.135s] -- The CXX compiler identification is GNU 11.4.0
+[0.145s] -- Detecting C compiler ABI info
+[0.204s] -- Detecting C compiler ABI info - done
+[0.226s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.227s] -- Detecting C compile features
+[0.227s] -- Detecting C compile features - done
+[0.242s] -- Detecting CXX compiler ABI info
+[0.309s] -- Detecting CXX compiler ABI info - done
+[0.324s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.324s] -- Detecting CXX compile features
+[0.325s] -- Detecting CXX compile features - done
+[0.330s] [0mCurrent CPU archtecture: x86_64[0m
+[0.337s] [0mProcesser number:  16[0m
+[0.337s] [0mcore for MP: 3[0m
+[0.670s] [33mCMake Warning (dev) at CMakeLists.txt:47 (find_package):
+[0.670s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.670s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.670s]   the cmake_policy command to set the policy and suppress this warning.
+[0.670s] 
+[0.670s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.670s] [0m
+[0.730s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found version "3.10.12")
+[0.733s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.892s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.952s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.993s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[1.040s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.047s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.057s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.071s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.091s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.155s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.159s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.244s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[1.272s] -- Found FastRTPS: /opt/ros/humble/include
+[1.334s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.354s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.412s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.413s] -- Found Threads: TRUE
+[1.483s] -- Found rclcpp_components: 16.0.18 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.543s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.573s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.612s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.653s] -- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+[1.672s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.700s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[1.749s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:146 (find_package):
+[1.749s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[1.749s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[1.749s]   cmake_policy command to set the policy and suppress this warning.
+[1.749s] 
+[1.749s]   CMake variable EIGEN_ROOT is set to:
+[1.749s] 
+[1.749s]     /usr/include/eigen3
+[1.749s] 
+[1.749s]   For compatibility, find_package is ignoring the variable, but code in a
+[1.749s]   .cmake module might still use it.
+[1.749s] Call Stack (most recent call first):
+[1.749s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:299 (find_eigen)
+[1.749s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[1.749s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.749s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[1.750s]   /opt/ros/humble/share/pcl_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.750s]   /opt/ros/humble/share/pcl_ros/cmake/pcl_rosConfig.cmake:41 (include)
+[1.750s]   CMakeLists.txt:60 (find_package)
+[1.750s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.750s] [0m
+[1.754s] -- Checking for module 'eigen3'
+[1.769s] --   Found eigen3, version 3.4.0
+[1.793s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1")
+[1.793s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.793s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:128 (find_package):
+[1.793s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[1.793s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[1.793s]   set the policy and suppress this warning.
+[1.793s] 
+[1.793s] Call Stack (most recent call first):
+[1.793s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:297 (find_boost)
+[1.793s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[1.793s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.793s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[1.793s]   /opt/ros/humble/share/pcl_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.793s]   /opt/ros/humble/share/pcl_ros/cmake/pcl_rosConfig.cmake:41 (include)
+[1.793s]   CMakeLists.txt:60 (find_package)
+[1.793s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.794s] [0m
+[1.820s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:44 (find_package):
+[1.820s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[1.820s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[1.820s]   cmake_policy command to set the policy and suppress this warning.
+[1.820s] 
+[1.820s]   CMake variable FLANN_ROOT is set to:
+[1.820s] 
+[1.820s]     /usr
+[1.820s] 
+[1.820s]   For compatibility, find_package is ignoring the variable, but code in a
+[1.820s]   .cmake module might still use it.
+[1.821s] Call Stack (most recent call first):
+[1.821s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:256 (find_package)
+[1.821s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:301 (find_flann)
+[1.821s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[1.821s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.821s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[1.821s]   /opt/ros/humble/share/pcl_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.821s]   /opt/ros/humble/share/pcl_ros/cmake/pcl_rosConfig.cmake:41 (include)
+[1.821s]   CMakeLists.txt:60 (find_package)
+[1.821s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.821s] [0m
+[1.834s] -- Checking for module 'flann'
+[1.846s] --   Found flann, version 1.9.1
+[1.884s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so
+[1.884s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[3.035s] -- Checking for module 'libusb-1.0'
+[3.051s] --   Found libusb-1.0, version 1.0.25
+[3.083s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so
+[3.084s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.133s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.398s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:128 (find_package):
+[3.398s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[3.398s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[3.398s]   set the policy and suppress this warning.
+[3.398s] 
+[3.398s] Call Stack (most recent call first):
+[3.398s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:297 (find_boost)
+[3.398s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[3.399s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[3.399s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[3.399s]   /opt/ros/humble/share/pcl_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[3.399s]   /opt/ros/humble/share/pcl_ros/cmake/pcl_rosConfig.cmake:41 (include)
+[3.399s]   CMakeLists.txt:60 (find_package)
+[3.399s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.399s] [0m
+[3.411s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.418s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.425s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.739s] -- Found Qhull version 8.0.2
+[4.038s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.291s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so
+[4.292s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so
+[4.293s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so
+[4.295s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so
+[4.296s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so
+[4.297s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so
+[4.298s] -- Found PCL_2D: /usr/include/pcl-1.12
+[4.298s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12
+[4.299s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so
+[4.300s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so
+[4.301s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so
+[4.302s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so
+[4.304s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so
+[4.305s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so
+[4.306s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so
+[4.307s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so
+[4.308s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so
+[4.309s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so
+[4.310s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so
+[4.312s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so
+[4.312s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12
+[4.313s] -- Found PCL_MODELER: /usr/include/pcl-1.12
+[4.313s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12
+[4.314s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so
+[4.316s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so
+[4.350s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[4.352s] -- Found Eigen3: TRUE (found version "3.4.0")
+[4.353s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.440s] -- Found livox_ros_driver2: 1.0.0 (/home/xinzhu/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake)
+[4.467s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[4.480s] [33mCMake Warning (dev) at CMakeLists.txt:81 (find_package):
+[4.480s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[4.480s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[4.481s]   command to set the policy and suppress this warning.
+[4.481s] 
+[4.481s]   CMake variable PCL_ROOT is set to:
+[4.481s] 
+[4.481s]     /usr
+[4.481s] 
+[4.481s]   For compatibility, CMake is ignoring the variable.
+[4.481s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.481s] [0m
+[4.489s] -- PCL: /usr/include/pcl-1.12
+[4.489s] [0mEigen:/usr/include/eigen3[0m
+[4.873s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.639s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.905s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.907s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[5.907s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[5.907s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[5.907s]   the cmake_policy command to set the policy and suppress this warning.
+[5.907s] 
+[5.907s] Call Stack (most recent call first):
+[5.907s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[5.907s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[5.907s]   CMakeLists.txt:90 (rosidl_generate_interfaces)
+[5.907s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[5.907s] [0m
+[5.928s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6")
+[5.932s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.933s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[5.933s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[5.933s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[5.933s]   the cmake_policy command to set the policy and suppress this warning.
+[5.933s] 
+[5.934s] Call Stack (most recent call first):
+[5.934s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[5.934s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[5.934s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[5.934s]   CMakeLists.txt:90 (rosidl_generate_interfaces)
+[5.934s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[5.934s] [0m
+[5.954s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[5.954s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[5.954s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[5.954s]   the cmake_policy command to set the policy and suppress this warning.
+[5.954s] 
+[5.954s] Call Stack (most recent call first):
+[5.954s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[5.954s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[5.954s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[5.954s]   CMakeLists.txt:90 (rosidl_generate_interfaces)
+[5.954s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[5.954s] [0m
+[5.956s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5")
+[5.956s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.956s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.956s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[5.977s] -- Found PythonExtra: .so
+[6.050s] -- Configuring done (6.0s)
+[6.119s] -- Generating done (0.1s)
+[6.130s] -- Build files have been written to: /home/xinzhu/sentry_ws/build/fast_lio
+[6.157s] Invoked command in '/home/xinzhu/sentry_ws/build/fast_lio' returned '0': AMENT_PREFIX_PATH=/home/xinzhu/sentry_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xinzhu/sentry_ws/install/livox_ros_driver2:/home/xinzhu/Desktop/sentry_ws/install/terrain_analysis_ext:/home/xinzhu/Desktop/sentry_ws/install/terrain_analysis:/home/xinzhu/Desktop/sentry_ws/install/sentry_description:/home/xinzhu/Desktop/sentry_ws/install/sentry_bringup:/home/xinzhu/Desktop/sentry_ws/install/sensor_scan_generation:/home/xinzhu/Desktop/sentry_ws/install/rm_bringup:/home/xinzhu/Desktop/sentry_ws/install/rm_serial_driver:/home/xinzhu/Desktop/sentry_ws/install/rm_camera_driver:/home/xinzhu/Desktop/sentry_ws/install/rm_auto_aim:/home/xinzhu/Desktop/sentry_ws/install/armor_solver:/home/xinzhu/Desktop/sentry_ws/install/armor_detector:/home/xinzhu/Desktop/sentry_ws/install/rm_utils:/home/xinzhu/Desktop/sentry_ws/install/rm_robot_description:/home/xinzhu/Desktop/sentry_ws/install/rm_decision_cpp:/home/xinzhu/Desktop/sentry_ws/install/cmd_chassis:/home/xinzhu/Desktop/sentry_ws/install/rm_interfaces:/home/xinzhu/Desktop/sentry_ws/install/fast_lio:/home/xinzhu/Desktop/sentry_ws/install/livox_ros_driver2:/home/xinzhu/Desktop/sentry_ws/install/icp_relocalization:/home/xinzhu/Desktop/sentry_ws/install/costmap_intensity:/home/xinzhu/Desktop/sentry_ws/install/behaviortree_cpp:/home/xinzhu/Desktop/sentry_ws/install/behavior_ext_plugins:/home/xinzhu/Desktop/sentry_ws/install/auto_aim_interfaces:/home/xinzhu/Desktop/sentry_ws/install/control_panel:/opt/ros/humble LD_LIBRARY_PATH=/home/xinzhu/sentry_ws/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PS1=%F{green}%n@%m%f%F{white}:%f%F{blue}%~%f%F{white}$%f PYTHONPATH=/home/xinzhu/sentry_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/xinzhu/sentry_ws/src/FAST_LIO -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xinzhu/sentry_ws/install/fast_lio
+[6.160s] Invoking command in '/home/xinzhu/sentry_ws/build/fast_lio': AMENT_PREFIX_PATH=/home/xinzhu/sentry_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xinzhu/sentry_ws/install/livox_ros_driver2:/home/xinzhu/Desktop/sentry_ws/install/terrain_analysis_ext:/home/xinzhu/Desktop/sentry_ws/install/terrain_analysis:/home/xinzhu/Desktop/sentry_ws/install/sentry_description:/home/xinzhu/Desktop/sentry_ws/install/sentry_bringup:/home/xinzhu/Desktop/sentry_ws/install/sensor_scan_generation:/home/xinzhu/Desktop/sentry_ws/install/rm_bringup:/home/xinzhu/Desktop/sentry_ws/install/rm_serial_driver:/home/xinzhu/Desktop/sentry_ws/install/rm_camera_driver:/home/xinzhu/Desktop/sentry_ws/install/rm_auto_aim:/home/xinzhu/Desktop/sentry_ws/install/armor_solver:/home/xinzhu/Desktop/sentry_ws/install/armor_detector:/home/xinzhu/Desktop/sentry_ws/install/rm_utils:/home/xinzhu/Desktop/sentry_ws/install/rm_robot_description:/home/xinzhu/Desktop/sentry_ws/install/rm_decision_cpp:/home/xinzhu/Desktop/sentry_ws/install/cmd_chassis:/home/xinzhu/Desktop/sentry_ws/install/rm_interfaces:/home/xinzhu/Desktop/sentry_ws/install/fast_lio:/home/xinzhu/Desktop/sentry_ws/install/livox_ros_driver2:/home/xinzhu/Desktop/sentry_ws/install/icp_relocalization:/home/xinzhu/Desktop/sentry_ws/install/costmap_intensity:/home/xinzhu/Desktop/sentry_ws/install/behaviortree_cpp:/home/xinzhu/Desktop/sentry_ws/install/behavior_ext_plugins:/home/xinzhu/Desktop/sentry_ws/install/auto_aim_interfaces:/home/xinzhu/Desktop/sentry_ws/install/control_panel:/opt/ros/humble LD_LIBRARY_PATH=/home/xinzhu/sentry_ws/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PS1=%F{green}%n@%m%f%F{white}:%f%F{blue}%~%f%F{white}$%f PYTHONPATH=/home/xinzhu/sentry_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/xinzhu/sentry_ws/build/fast_lio -- -j16 -l16
+[6.194s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.476s] [  2%] Built target fast_lio__cpp
+[6.488s] [  2%] Built target ament_cmake_python_symlink_fast_lio
+[6.493s] [  5%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.719s] [  8%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fast_lio/msg/detail/pose6_d__type_support.cpp.o[0m
+[7.031s] [ 11%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_introspection_cpp.so[0m
+[7.056s] [ 11%] Built target fast_lio__rosidl_typesupport_introspection_cpp
+[7.236s] running egg_info
+[7.237s] creating fast_lio.egg-info
+[7.237s] writing fast_lio.egg-info/PKG-INFO
+[7.237s] writing dependency_links to fast_lio.egg-info/dependency_links.txt
+[7.237s] writing top-level names to fast_lio.egg-info/top_level.txt
+[7.237s] writing manifest file 'fast_lio.egg-info/SOURCES.txt'
+[7.239s] reading manifest file 'fast_lio.egg-info/SOURCES.txt'
+[7.240s] writing manifest file 'fast_lio.egg-info/SOURCES.txt'
+[7.262s] [ 11%] Built target ament_cmake_python_build_fast_lio_egg
+[7.267s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.496s] [ 17%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fast_lio/msg/detail/dds_fastrtps/pose6_d__type_support.cpp.o[0m
+[7.858s] [ 20%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.919s] [ 20%] Built target fast_lio__rosidl_typesupport_fastrtps_cpp
+[7.924s] [ 22%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[8.130s] [ 25%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fast_lio/msg/pose6_d__type_support.cpp.o[0m
+[8.380s] [ 28%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_cpp.so[0m
+[8.408s] [ 28%] Built target fast_lio__rosidl_typesupport_cpp
+[8.414s] [ 31%] [34m[1mGenerating C code for ROS interfaces[0m
+[8.674s] [ 34%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_generator_c.dir/rosidl_generator_c/fast_lio/msg/detail/pose6_d__functions.c.o[0m
+[8.751s] [ 37%] [32m[1mLinking C shared library libfast_lio__rosidl_generator_c.so[0m
+[8.773s] [ 37%] Built target fast_lio__rosidl_generator_c
+[8.784s] [ 40%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o[0m
+[13.195s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[13.195s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[13.195s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[13.195s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[13.195s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[13.195s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[13.195s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[13.195s]                  from [01m[K/usr/include/boost/date_time/microsec_time_clock.hpp:18[m[K,
+[13.195s]                  from [01m[K/usr/include/boost/interprocess/detail/posix_time_types_wrk.hpp:31[m[K,
+[13.195s]                  from [01m[K/usr/include/boost/interprocess/detail/os_thread_functions.hpp:36[m[K,
+[13.195s]                  from [01m[K/usr/include/boost/interprocess/sync/file_lock.hpp:26[m[K,
+[13.195s]                  from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:46[m[K,
+[13.195s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:73[m[K,
+[13.196s]                  from [01m[K/home/xinzhu/sentry_ws/src/FAST_LIO/src/IMU_Processing.hpp:18[m[K,
+[13.196s]                  from [01m[K/home/xinzhu/sentry_ws/src/FAST_LIO/src/laserMapping.cpp:47[m[K:
+[13.196s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[13.196s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[13.196s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[70.478s] [ 42%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.o[0m
+[70.478s] [ 45%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.o[0m
+[79.164s] [ 48%] [32m[1mLinking CXX executable fastlio_mapping[0m
+[80.098s] [ 48%] Built target fastlio_mapping
+[80.103s] [ 51%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[80.310s] [ 54%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_c.dir/rosidl_typesupport_c/fast_lio/msg/pose6_d__type_support.cpp.o[0m
+[80.328s] [ 57%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_c.so[0m
+[80.353s] [ 57%] Built target fast_lio__rosidl_typesupport_c
+[80.358s] [ 60%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[80.574s] [ 62%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fast_lio/msg/detail/pose6_d__type_support.c.o[0m
+[80.616s] [ 65%] [32m[1mLinking C shared library libfast_lio__rosidl_typesupport_introspection_c.so[0m
+[80.638s] [ 65%] Built target fast_lio__rosidl_typesupport_introspection_c
+[80.644s] [ 68%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[80.863s] [ 71%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fast_lio/msg/detail/pose6_d__type_support_c.cpp.o[0m
+[81.107s] [ 74%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_fastrtps_c.so[0m
+[81.156s] [ 74%] Built target fast_lio__rosidl_typesupport_fastrtps_c
+[81.164s] [ 74%] Built target fast_lio
+[81.175s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[81.501s] [ 77%] Built target fast_lio__py
+[81.514s] [ 80%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_generator_py.dir/rosidl_generator_py/fast_lio/msg/_pose6_d_s.c.o[0m
+[81.625s] [ 82%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio/libfast_lio__rosidl_generator_py.so[0m
+[81.656s] [ 82%] Built target fast_lio__rosidl_generator_py
+[81.665s] [ 85%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[81.748s] [ 88%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[81.775s] [ 88%] Built target fast_lio__rosidl_typesupport_fastrtps_c__pyext
+[81.786s] [ 91%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_c.c.o[0m
+[81.857s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[81.878s] [ 94%] Built target fast_lio__rosidl_typesupport_c__pyext
+[81.889s] [ 97%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[81.956s] [100%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[81.976s] [100%] Built target fast_lio__rosidl_typesupport_introspection_c__pyext
+[81.981s] Invoked command in '/home/xinzhu/sentry_ws/build/fast_lio' returned '0': AMENT_PREFIX_PATH=/home/xinzhu/sentry_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xinzhu/sentry_ws/install/livox_ros_driver2:/home/xinzhu/Desktop/sentry_ws/install/terrain_analysis_ext:/home/xinzhu/Desktop/sentry_ws/install/terrain_analysis:/home/xinzhu/Desktop/sentry_ws/install/sentry_description:/home/xinzhu/Desktop/sentry_ws/install/sentry_bringup:/home/xinzhu/Desktop/sentry_ws/install/sensor_scan_generation:/home/xinzhu/Desktop/sentry_ws/install/rm_bringup:/home/xinzhu/Desktop/sentry_ws/install/rm_serial_driver:/home/xinzhu/Desktop/sentry_ws/install/rm_camera_driver:/home/xinzhu/Desktop/sentry_ws/install/rm_auto_aim:/home/xinzhu/Desktop/sentry_ws/install/armor_solver:/home/xinzhu/Desktop/sentry_ws/install/armor_detector:/home/xinzhu/Desktop/sentry_ws/install/rm_utils:/home/xinzhu/Desktop/sentry_ws/install/rm_robot_description:/home/xinzhu/Desktop/sentry_ws/install/rm_decision_cpp:/home/xinzhu/Desktop/sentry_ws/install/cmd_chassis:/home/xinzhu/Desktop/sentry_ws/install/rm_interfaces:/home/xinzhu/Desktop/sentry_ws/install/fast_lio:/home/xinzhu/Desktop/sentry_ws/install/livox_ros_driver2:/home/xinzhu/Desktop/sentry_ws/install/icp_relocalization:/home/xinzhu/Desktop/sentry_ws/install/costmap_intensity:/home/xinzhu/Desktop/sentry_ws/install/behaviortree_cpp:/home/xinzhu/Desktop/sentry_ws/install/behavior_ext_plugins:/home/xinzhu/Desktop/sentry_ws/install/auto_aim_interfaces:/home/xinzhu/Desktop/sentry_ws/install/control_panel:/opt/ros/humble LD_LIBRARY_PATH=/home/xinzhu/sentry_ws/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PS1=%F{green}%n@%m%f%F{white}:%f%F{blue}%~%f%F{white}$%f PYTHONPATH=/home/xinzhu/sentry_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/xinzhu/sentry_ws/build/fast_lio -- -j16 -l16
+[81.983s] Invoking command in '/home/xinzhu/sentry_ws/build/fast_lio': AMENT_PREFIX_PATH=/home/xinzhu/sentry_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xinzhu/sentry_ws/install/livox_ros_driver2:/home/xinzhu/Desktop/sentry_ws/install/terrain_analysis_ext:/home/xinzhu/Desktop/sentry_ws/install/terrain_analysis:/home/xinzhu/Desktop/sentry_ws/install/sentry_description:/home/xinzhu/Desktop/sentry_ws/install/sentry_bringup:/home/xinzhu/Desktop/sentry_ws/install/sensor_scan_generation:/home/xinzhu/Desktop/sentry_ws/install/rm_bringup:/home/xinzhu/Desktop/sentry_ws/install/rm_serial_driver:/home/xinzhu/Desktop/sentry_ws/install/rm_camera_driver:/home/xinzhu/Desktop/sentry_ws/install/rm_auto_aim:/home/xinzhu/Desktop/sentry_ws/install/armor_solver:/home/xinzhu/Desktop/sentry_ws/install/armor_detector:/home/xinzhu/Desktop/sentry_ws/install/rm_utils:/home/xinzhu/Desktop/sentry_ws/install/rm_robot_description:/home/xinzhu/Desktop/sentry_ws/install/rm_decision_cpp:/home/xinzhu/Desktop/sentry_ws/install/cmd_chassis:/home/xinzhu/Desktop/sentry_ws/install/rm_interfaces:/home/xinzhu/Desktop/sentry_ws/install/fast_lio:/home/xinzhu/Desktop/sentry_ws/install/livox_ros_driver2:/home/xinzhu/Desktop/sentry_ws/install/icp_relocalization:/home/xinzhu/Desktop/sentry_ws/install/costmap_intensity:/home/xinzhu/Desktop/sentry_ws/install/behaviortree_cpp:/home/xinzhu/Desktop/sentry_ws/install/behavior_ext_plugins:/home/xinzhu/Desktop/sentry_ws/install/auto_aim_interfaces:/home/xinzhu/Desktop/sentry_ws/install/control_panel:/opt/ros/humble LD_LIBRARY_PATH=/home/xinzhu/sentry_ws/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PS1=%F{green}%n@%m%f%F{white}:%f%F{blue}%~%f%F{white}$%f PYTHONPATH=/home/xinzhu/sentry_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/xinzhu/sentry_ws/build/fast_lio
+[81.987s] -- Install configuration: "Release"
+[81.987s] -- Execute custom install script
+[81.987s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/share/ament_index/resource_index/rosidl_interfaces/fast_lio
+[81.992s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__functions.h
+[81.995s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.h
+[81.999s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.h
+[82.002s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.h
+[82.006s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_generator_c__visibility_control.h
+[82.010s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/share/fast_lio/environment/library_path.sh
+[82.013s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/share/fast_lio/environment/library_path.dsv
+[82.018s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_c.h
+[82.020s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[82.023s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__builder.hpp
+[82.027s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.hpp
+[82.031s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__traits.hpp
+[82.034s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.hpp
+[82.038s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.hpp
+[82.041s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_generator_cpp__visibility_control.hpp
+[82.044s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_cpp.hpp
+[82.048s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[82.051s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_c.h
+[82.055s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[82.059s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_cpp.hpp
+[82.061s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/share/fast_lio/environment/pythonpath.sh
+[82.065s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/share/fast_lio/environment/pythonpath.dsv
+[82.069s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/PKG-INFO
+[82.072s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/SOURCES.txt
+[82.075s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/dependency_links.txt
+[82.079s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/top_level.txt
+[82.083s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/__init__.py
+[82.087s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_c.c
+[82.091s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_fastrtps_c.c
+[82.094s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_introspection_c.c
+[82.098s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[82.101s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[82.105s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[82.108s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/libfast_lio__rosidl_generator_py.so
+[82.111s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/__init__.py
+[82.114s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/_pose6_d.py
+[82.117s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/_pose6_d_s.c
+[82.121s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[82.121s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[82.121s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[82.121s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/share/fast_lio/msg/Pose6D.idl
+[82.125s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/share/fast_lio/msg/Pose6D.msg
+[82.128s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/lib/fast_lio/fastlio_mapping
+[82.132s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/share/fast_lio/config/mid360.yaml
+[82.135s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/share/fast_lio/config/mid360_pri.yaml
+[82.139s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/share/fast_lio/launch/mapping.launch.py
+[82.142s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/share/fast_lio/rviz_cfg/loam_livox.rviz
+[82.146s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/share/ament_index/resource_index/package_run_dependencies/fast_lio
+[82.150s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/share/ament_index/resource_index/parent_prefix_path/fast_lio
+[82.153s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/share/fast_lio/environment/ament_prefix_path.sh
+[82.156s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/share/fast_lio/environment/ament_prefix_path.dsv
+[82.160s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/share/fast_lio/environment/path.sh
+[82.163s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/share/fast_lio/environment/path.dsv
+[82.167s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/share/fast_lio/local_setup.bash
+[82.170s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/share/fast_lio/local_setup.sh
+[82.173s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/share/fast_lio/local_setup.zsh
+[82.176s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/share/fast_lio/local_setup.dsv
+[82.179s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/share/fast_lio/package.dsv
+[82.183s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/share/ament_index/resource_index/packages/fast_lio
+[82.187s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/share/fast_lio/cmake/rosidl_cmake-extras.cmake
+[82.190s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_include_directories-extras.cmake
+[82.194s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_libraries-extras.cmake
+[82.197s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_targets-extras.cmake
+[82.201s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[82.204s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_dependencies-extras.cmake
+[82.208s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[82.211s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/share/fast_lio/cmake/fast_lioConfig.cmake
+[82.215s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/share/fast_lio/cmake/fast_lioConfig-version.cmake
+[82.218s] -- Symlinking: /home/xinzhu/sentry_ws/install/fast_lio/share/fast_lio/package.xml
+[82.221s] -- Installing: /home/xinzhu/sentry_ws/install/fast_lio/lib/libfast_lio__rosidl_generator_c.so
+[82.221s] -- Set non-toolchain portion of runtime path of "/home/xinzhu/sentry_ws/install/fast_lio/lib/libfast_lio__rosidl_generator_c.so" to ""
+[82.221s] -- Installing: /home/xinzhu/sentry_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_c.so
+[82.222s] -- Set non-toolchain portion of runtime path of "/home/xinzhu/sentry_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_c.so" to ""
+[82.222s] -- Installing: /home/xinzhu/sentry_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_cpp.so
+[82.222s] -- Set non-toolchain portion of runtime path of "/home/xinzhu/sentry_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_cpp.so" to ""
+[82.222s] -- Installing: /home/xinzhu/sentry_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_c.so
+[82.222s] -- Set non-toolchain portion of runtime path of "/home/xinzhu/sentry_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_c.so" to ""
+[82.222s] -- Installing: /home/xinzhu/sentry_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_c.so
+[82.222s] -- Set non-toolchain portion of runtime path of "/home/xinzhu/sentry_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_c.so" to ""
+[82.222s] -- Installing: /home/xinzhu/sentry_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_cpp.so
+[82.222s] -- Set non-toolchain portion of runtime path of "/home/xinzhu/sentry_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_cpp.so" to ""
+[82.222s] -- Installing: /home/xinzhu/sentry_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_cpp.so
+[82.222s] -- Set non-toolchain portion of runtime path of "/home/xinzhu/sentry_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_cpp.so" to ""
+[82.247s] Listing '/home/xinzhu/sentry_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio'...
+[82.247s] Compiling '/home/xinzhu/sentry_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/__init__.py'...
+[82.247s] Listing '/home/xinzhu/sentry_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg'...
+[82.247s] Compiling '/home/xinzhu/sentry_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/__init__.py'...
+[82.248s] Compiling '/home/xinzhu/sentry_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/_pose6_d.py'...
+[82.251s] -- Installing: /home/xinzhu/sentry_ws/install/fast_lio/lib/libfast_lio__rosidl_generator_py.so
+[82.251s] -- Set non-toolchain portion of runtime path of "/home/xinzhu/sentry_ws/install/fast_lio/lib/libfast_lio__rosidl_generator_py.so" to ""
+[82.251s] -- Installing: /home/xinzhu/sentry_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport.cmake
+[82.251s] -- Installing: /home/xinzhu/sentry_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport-release.cmake
+[82.251s] -- Installing: /home/xinzhu/sentry_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport.cmake
+[82.251s] -- Installing: /home/xinzhu/sentry_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport-release.cmake
+[82.251s] -- Installing: /home/xinzhu/sentry_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cppExport.cmake
+[82.251s] -- Installing: /home/xinzhu/sentry_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport.cmake
+[82.251s] -- Installing: /home/xinzhu/sentry_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[82.251s] -- Installing: /home/xinzhu/sentry_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport.cmake
+[82.251s] -- Installing: /home/xinzhu/sentry_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport-release.cmake
+[82.252s] -- Installing: /home/xinzhu/sentry_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport.cmake
+[82.252s] -- Installing: /home/xinzhu/sentry_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport-release.cmake
+[82.252s] -- Installing: /home/xinzhu/sentry_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport.cmake
+[82.252s] -- Installing: /home/xinzhu/sentry_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport-release.cmake
+[82.252s] -- Installing: /home/xinzhu/sentry_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport.cmake
+[82.252s] -- Installing: /home/xinzhu/sentry_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport-release.cmake
+[82.252s] -- Installing: /home/xinzhu/sentry_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport.cmake
+[82.252s] -- Installing: /home/xinzhu/sentry_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport-release.cmake
+[82.253s] Invoked command in '/home/xinzhu/sentry_ws/build/fast_lio' returned '0': AMENT_PREFIX_PATH=/home/xinzhu/sentry_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xinzhu/sentry_ws/install/livox_ros_driver2:/home/xinzhu/Desktop/sentry_ws/install/terrain_analysis_ext:/home/xinzhu/Desktop/sentry_ws/install/terrain_analysis:/home/xinzhu/Desktop/sentry_ws/install/sentry_description:/home/xinzhu/Desktop/sentry_ws/install/sentry_bringup:/home/xinzhu/Desktop/sentry_ws/install/sensor_scan_generation:/home/xinzhu/Desktop/sentry_ws/install/rm_bringup:/home/xinzhu/Desktop/sentry_ws/install/rm_serial_driver:/home/xinzhu/Desktop/sentry_ws/install/rm_camera_driver:/home/xinzhu/Desktop/sentry_ws/install/rm_auto_aim:/home/xinzhu/Desktop/sentry_ws/install/armor_solver:/home/xinzhu/Desktop/sentry_ws/install/armor_detector:/home/xinzhu/Desktop/sentry_ws/install/rm_utils:/home/xinzhu/Desktop/sentry_ws/install/rm_robot_description:/home/xinzhu/Desktop/sentry_ws/install/rm_decision_cpp:/home/xinzhu/Desktop/sentry_ws/install/cmd_chassis:/home/xinzhu/Desktop/sentry_ws/install/rm_interfaces:/home/xinzhu/Desktop/sentry_ws/install/fast_lio:/home/xinzhu/Desktop/sentry_ws/install/livox_ros_driver2:/home/xinzhu/Desktop/sentry_ws/install/icp_relocalization:/home/xinzhu/Desktop/sentry_ws/install/costmap_intensity:/home/xinzhu/Desktop/sentry_ws/install/behaviortree_cpp:/home/xinzhu/Desktop/sentry_ws/install/behavior_ext_plugins:/home/xinzhu/Desktop/sentry_ws/install/auto_aim_interfaces:/home/xinzhu/Desktop/sentry_ws/install/control_panel:/opt/ros/humble LD_LIBRARY_PATH=/home/xinzhu/sentry_ws/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PS1=%F{green}%n@%m%f%F{white}:%f%F{blue}%~%f%F{white}$%f PYTHONPATH=/home/xinzhu/sentry_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/xinzhu/sentry_ws/build/fast_lio

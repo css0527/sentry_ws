@@ -1,0 +1,1 @@
+/home/xinzhu/sentry_ws/src/rm_bringup/launch/bringup_auto_aim.launch.py

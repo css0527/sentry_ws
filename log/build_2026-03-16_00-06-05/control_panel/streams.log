@@ -1,0 +1,17 @@
+[0.826s] Invoking command in '/home/xinzhu/sentry_ws/build/control_panel': PS1=%F{green}%n@%m%f%F{white}:%f%F{blue}%~%f%F{white}$%f PYTHONPATH=/home/xinzhu/sentry_ws/build/control_panel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xinzhu/sentry_ws/install/control_panel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/xinzhu/sentry_ws/build/control_panel/build --no-deps symlink_data
+[1.137s] running develop
+[1.240s] running egg_info
+[1.240s] writing control_panel.egg-info/PKG-INFO
+[1.240s] writing dependency_links to control_panel.egg-info/dependency_links.txt
+[1.240s] writing entry points to control_panel.egg-info/entry_points.txt
+[1.240s] writing requirements to control_panel.egg-info/requires.txt
+[1.240s] writing top-level names to control_panel.egg-info/top_level.txt
+[1.242s] reading manifest file 'control_panel.egg-info/SOURCES.txt'
+[1.242s] writing manifest file 'control_panel.egg-info/SOURCES.txt'
+[1.243s] running build_ext
+[1.243s] Creating /home/xinzhu/sentry_ws/install/control_panel/lib/python3.10/site-packages/control-panel.egg-link (link to .)
+[1.244s] Installing control_panel script to /home/xinzhu/sentry_ws/install/control_panel/lib/control_panel
+[1.244s] 
+[1.244s] Installed /home/xinzhu/sentry_ws/build/control_panel
+[1.244s] running symlink_data
+[1.266s] Invoked command in '/home/xinzhu/sentry_ws/build/control_panel' returned '0': PS1=%F{green}%n@%m%f%F{white}:%f%F{blue}%~%f%F{white}$%f PYTHONPATH=/home/xinzhu/sentry_ws/build/control_panel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xinzhu/sentry_ws/install/control_panel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/xinzhu/sentry_ws/build/control_panel/build --no-deps symlink_data

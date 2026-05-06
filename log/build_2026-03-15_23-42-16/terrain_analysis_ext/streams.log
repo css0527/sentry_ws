@@ -1,0 +1,167 @@
+[0.254s] Invoking command in '/home/xinzhu/sentry_ws/build/terrain_analysis_ext': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinzhu/Desktop/sentry_ws/install/control_panel:/opt/ros/humble PS1=%F{green}%n@%m%f%F{white}:%f%F{blue}%~%f%F{white}$%f /usr/local/bin/cmake /home/xinzhu/sentry_ws/src/autonomous_exploration_development_environment/src/terrain_analysis_ext -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xinzhu/sentry_ws/install/terrain_analysis_ext
+[0.582s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.582s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.583s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[0.583s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.583s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.583s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.583s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.584s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.584s]   CMake.
+[0.585s] 
+[0.585s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.585s]   to tell CMake that the project requires at least <min> but has been updated
+[0.585s]   to work with policies introduced by <max> or earlier.
+[0.585s] 
+[0.585s] [0m
+[0.586s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.605s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.670s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.673s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.802s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.859s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.890s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.910s] -- Found tf2_ros: 0.25.19 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.994s] -- Found tf2_geometry_msgs: 0.25.19 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.997s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.998s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.001s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[1.034s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:146 (find_package):
+[1.034s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[1.034s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[1.034s]   cmake_policy command to set the policy and suppress this warning.
+[1.034s] 
+[1.034s]   CMake variable EIGEN_ROOT is set to:
+[1.035s] 
+[1.035s]     /usr/include/eigen3
+[1.035s] 
+[1.035s]   For compatibility, find_package is ignoring the variable, but code in a
+[1.035s]   .cmake module might still use it.
+[1.035s] Call Stack (most recent call first):
+[1.035s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:299 (find_eigen)
+[1.035s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[1.035s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.035s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[1.035s]   CMakeLists.txt:28 (find_package)
+[1.035s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.035s] [0m
+[1.038s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.039s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:128 (find_package):
+[1.039s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[1.039s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[1.039s]   set the policy and suppress this warning.
+[1.039s] 
+[1.039s] Call Stack (most recent call first):
+[1.039s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:297 (find_boost)
+[1.039s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[1.039s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.039s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[1.039s]   CMakeLists.txt:28 (find_package)
+[1.039s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.040s] [0m
+[1.047s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:44 (find_package):
+[1.047s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[1.047s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[1.047s]   cmake_policy command to set the policy and suppress this warning.
+[1.047s] 
+[1.048s]   CMake variable FLANN_ROOT is set to:
+[1.048s] 
+[1.048s]     /usr
+[1.048s] 
+[1.048s]   For compatibility, find_package is ignoring the variable, but code in a
+[1.048s]   .cmake module might still use it.
+[1.048s] Call Stack (most recent call first):
+[1.048s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:256 (find_package)
+[1.048s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:301 (find_flann)
+[1.048s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[1.048s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.048s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[1.049s]   CMakeLists.txt:28 (find_package)
+[1.049s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.049s] [0m
+[1.074s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.471s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.476s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.764s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:128 (find_package):
+[1.764s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[1.764s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[1.764s]   set the policy and suppress this warning.
+[1.764s] 
+[1.764s] Call Stack (most recent call first):
+[1.765s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:297 (find_boost)
+[1.765s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[1.765s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.765s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[1.765s]   CMakeLists.txt:28 (find_package)
+[1.765s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.765s] [0m
+[1.774s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.780s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.785s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.017s] -- Found Qhull version 8.0.2
+[2.241s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.498s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[2.512s] [33mCMake Warning (dev) at CMakeLists.txt:30 (find_package):
+[2.512s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[2.512s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[2.513s]   command to set the policy and suppress this warning.
+[2.513s] 
+[2.513s]   CMake variable PCL_ROOT is set to:
+[2.513s] 
+[2.513s]     /usr
+[2.513s] 
+[2.513s]   For compatibility, CMake is ignoring the variable.
+[2.513s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.513s] [0m
+[2.604s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.667s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.668s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.669s] -- Configured cppcheck include dirs: 
+[2.669s] -- Configured cppcheck exclude dirs and/or files: 
+[2.671s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.671s] -- Configured cpplint exclude dirs and/or files: 
+[2.671s] -- Added test 'lint_cmake' to check CMake code style
+[2.672s] -- Added test 'uncrustify' to check C / C++ code style
+[2.673s] -- Configured uncrustify additional arguments: 
+[2.673s] -- Added test 'xmllint' to check XML markup files
+[2.676s] -- Configuring done (2.4s)
+[2.834s] -- Generating done (0.2s)
+[2.849s] -- Build files have been written to: /home/xinzhu/sentry_ws/build/terrain_analysis_ext
+[2.865s] Invoked command in '/home/xinzhu/sentry_ws/build/terrain_analysis_ext' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinzhu/Desktop/sentry_ws/install/control_panel:/opt/ros/humble PS1=%F{green}%n@%m%f%F{white}:%f%F{blue}%~%f%F{white}$%f /usr/local/bin/cmake /home/xinzhu/sentry_ws/src/autonomous_exploration_development_environment/src/terrain_analysis_ext -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xinzhu/sentry_ws/install/terrain_analysis_ext
+[2.866s] Invoking command in '/home/xinzhu/sentry_ws/build/terrain_analysis_ext': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinzhu/Desktop/sentry_ws/install/control_panel:/opt/ros/humble PS1=%F{green}%n@%m%f%F{white}:%f%F{blue}%~%f%F{white}$%f /usr/local/bin/cmake --build /home/xinzhu/sentry_ws/build/terrain_analysis_ext -- -j16 -l16
+[2.911s] [ 25%] Built target PCDSaverNode
+[2.916s] [ 50%] Built target terrainAnalysisExt
+[2.916s] [ 75%] Built target PCDPublisherNode
+[2.919s] [100%] Built target pathNorm
+[2.924s] Invoked command in '/home/xinzhu/sentry_ws/build/terrain_analysis_ext' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinzhu/Desktop/sentry_ws/install/control_panel:/opt/ros/humble PS1=%F{green}%n@%m%f%F{white}:%f%F{blue}%~%f%F{white}$%f /usr/local/bin/cmake --build /home/xinzhu/sentry_ws/build/terrain_analysis_ext -- -j16 -l16
+[2.926s] Invoking command in '/home/xinzhu/sentry_ws/build/terrain_analysis_ext': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinzhu/Desktop/sentry_ws/install/control_panel:/opt/ros/humble PS1=%F{green}%n@%m%f%F{white}:%f%F{blue}%~%f%F{white}$%f /usr/local/bin/cmake --install /home/xinzhu/sentry_ws/build/terrain_analysis_ext
+[2.928s] -- Install configuration: "Release"
+[2.929s] -- Execute custom install script
+[2.929s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/terrain_analysis_ext/lib/terrain_analysis_ext/terrainAnalysisExt
+[2.930s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/terrain_analysis_ext/lib/terrain_analysis_ext/PCDPublisherNode
+[2.930s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/terrain_analysis_ext/lib/terrain_analysis_ext/PCDSaverNode
+[2.931s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/terrain_analysis_ext/lib/terrain_analysis_ext/pathNorm
+[2.931s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/launch/pathNorm.launch
+[2.932s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/launch/pub_analysis_result.launch
+[2.932s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/launch/save_terrain_analysis_ext.launch
+[2.932s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/launch/terrain_analysis_ext.launch
+[2.932s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/launch/terrain_analysis_ext_offline.launch
+[2.933s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/maps/analysis_result0201.pcd
+[2.933s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/maps/analysis_result0405.pcd
+[2.933s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/rviz/offline.rviz
+[2.933s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/terrain_analysis_ext/share/ament_index/resource_index/package_run_dependencies/terrain_analysis_ext
+[2.933s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/terrain_analysis_ext/share/ament_index/resource_index/parent_prefix_path/terrain_analysis_ext
+[2.934s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/environment/ament_prefix_path.sh
+[2.934s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/environment/ament_prefix_path.dsv
+[2.934s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/environment/path.sh
+[2.934s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/environment/path.dsv
+[2.934s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/local_setup.bash
+[2.934s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/local_setup.sh
+[2.935s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/local_setup.zsh
+[2.935s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/local_setup.dsv
+[2.935s] -- Symlinking: /home/xinzhu/sentry_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/package.dsv
+[2.940s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/terrain_analysis_ext/share/ament_index/resource_index/packages/terrain_analysis_ext
+[2.940s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/cmake/terrain_analysis_extConfig.cmake
+[2.940s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/cmake/terrain_analysis_extConfig-version.cmake
+[2.940s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/package.xml
+[2.942s] Invoked command in '/home/xinzhu/sentry_ws/build/terrain_analysis_ext' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinzhu/Desktop/sentry_ws/install/control_panel:/opt/ros/humble PS1=%F{green}%n@%m%f%F{white}:%f%F{blue}%~%f%F{white}$%f /usr/local/bin/cmake --install /home/xinzhu/sentry_ws/build/terrain_analysis_ext

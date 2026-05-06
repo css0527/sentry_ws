@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rm_interfaces/msg/referee/SentryCmd.msg
+// generated code does not contain a copyright notice
+
+
+module rm_interfaces {
+  module msg {
+    struct SentryCmd {
+      boolean resurrection_en;
+
+      boolean buy_resurrection_en;
+
+      uint16 buy_projectile_allowance;
+
+      uint16 buy_projectile_times;
+
+      uint16 buy_hp_times;
+    };
+  };
+};

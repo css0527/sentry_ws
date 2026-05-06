@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-509fe88a338f922e3f3c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rm_decision_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_decision_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_decision_cpp-Release-2d2ca878eccd69971390.json",
+					"name" : "rm_decision_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_decision_cpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_decision_cpp_uninstall-Release-57e732e78baab178cb7f.json",
+					"name" : "rm_decision_cpp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tree_exec_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tree_exec_node-Release-b2356395c4d56bb2456b.json",
+					"name" : "tree_exec_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-bfb6952e2dec43e75a39.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/xinzhu/sentry_ws/build/rm_decision_cpp",
+		"source" : "/home/xinzhu/sentry_ws/src/rm_decision_cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

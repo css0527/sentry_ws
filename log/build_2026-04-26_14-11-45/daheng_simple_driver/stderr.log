@@ -1,0 +1,16 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+In file included from [01m[K/home/xinzhu/Documents/Galaxy_Linux-x86/Galaxy_camera/inc/GxIAPI.h:12[m[K,
+                 from [01m[K/home/xinzhu/sentry_ws/src/daheng_simple_driver/src/driver_node.cpp:6[m[K:
+[01m[K/home/xinzhu/Documents/Galaxy_Linux-x86/Galaxy_camera/inc/GXDef.h:173:1:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypedef[m[K’ was ignored in this declaration
+  173 | [01;35m[Ktypedef[m[K enum GX_IP_CONFIGURE_MODE_LIST
+      | [01;35m[K^~~~~~~[m[K
+/usr/bin/ld: warning: libopencv_imgcodecs.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.407
+/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.407

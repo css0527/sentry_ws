@@ -1,0 +1,222 @@
+[0.054s] Invoking command in '/home/xinzhu/sentry_ws/build/rm_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinzhu/Desktop/sentry_ws/install/control_panel:/opt/ros/humble PS1=%F{green}%n@%m%f%F{white}:%f%F{blue}%~%f%F{white}$%f /usr/local/bin/cmake --build /home/xinzhu/sentry_ws/build/rm_interfaces -- -j16 -l16
+[0.373s] [  1%] Built target rm_interfaces__cpp
+[0.374s] [  1%] Built target ament_cmake_python_symlink_rm_interfaces
+[0.374s] [ 12%] Built target rm_interfaces__rosidl_typesupport_introspection_cpp
+[0.374s] running egg_info
+[0.374s] writing rm_interfaces.egg-info/PKG-INFO
+[0.374s] writing dependency_links to rm_interfaces.egg-info/dependency_links.txt
+[0.374s] writing top-level names to rm_interfaces.egg-info/top_level.txt
+[0.374s] reading manifest file 'rm_interfaces.egg-info/SOURCES.txt'
+[0.374s] writing manifest file 'rm_interfaces.egg-info/SOURCES.txt'
+[0.410s] [ 12%] Built target ament_cmake_python_build_rm_interfaces_egg
+[0.454s] [ 24%] Built target rm_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.474s] [ 35%] Built target rm_interfaces__rosidl_typesupport_cpp
+[0.476s] [ 46%] Built target rm_interfaces__rosidl_generator_c
+[0.498s] [ 58%] Built target rm_interfaces__rosidl_typesupport_fastrtps_c
+[0.517s] [ 69%] Built target rm_interfaces__rosidl_typesupport_c
+[0.536s] [ 81%] Built target rm_interfaces__rosidl_typesupport_introspection_c
+[0.551s] [ 81%] Built target rm_interfaces
+[0.564s] [ 82%] Built target rm_interfaces__py
+[0.584s] [ 92%] Built target rm_interfaces__rosidl_generator_py
+[0.598s] [ 94%] Built target rm_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.613s] [ 97%] Built target rm_interfaces__rosidl_typesupport_c__pyext
+[0.625s] [100%] Built target rm_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.665s] Invoked command in '/home/xinzhu/sentry_ws/build/rm_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinzhu/Desktop/sentry_ws/install/control_panel:/opt/ros/humble PS1=%F{green}%n@%m%f%F{white}:%f%F{blue}%~%f%F{white}$%f /usr/local/bin/cmake --build /home/xinzhu/sentry_ws/build/rm_interfaces -- -j16 -l16
+[0.666s] Invoking command in '/home/xinzhu/sentry_ws/build/rm_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinzhu/Desktop/sentry_ws/install/control_panel:/opt/ros/humble PS1=%F{green}%n@%m%f%F{white}:%f%F{blue}%~%f%F{white}$%f /usr/local/bin/cmake --install /home/xinzhu/sentry_ws/build/rm_interfaces
+[0.688s] -- Install configuration: "Release"
+[0.688s] -- Execute custom install script
+[0.689s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/share/ament_index/resource_index/rosidl_interfaces/rm_interfaces
+[0.689s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/chassis_cmd.h
+[0.690s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/chassis_cmd__functions.h
+[0.690s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/chassis_cmd__struct.h
+[0.690s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/chassis_cmd__type_support.h
+[0.690s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/game_state__functions.h
+[0.690s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/game_state__struct.h
+[0.690s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/game_state__type_support.h
+[0.690s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal__functions.h
+[0.691s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal__struct.h
+[0.691s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal__type_support.h
+[0.692s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__functions.h
+[0.692s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__struct.h
+[0.692s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__type_support.h
+[0.692s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/robot_mode__functions.h
+[0.693s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/robot_mode__struct.h
+[0.693s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/robot_mode__type_support.h
+[0.695s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/sentry_cmd__functions.h
+[0.696s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/sentry_cmd__struct.h
+[0.696s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/sentry_cmd__type_support.h
+[0.696s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/shoot_cmd__functions.h
+[0.696s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/shoot_cmd__struct.h
+[0.696s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/shoot_cmd__type_support.h
+[0.696s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/game_state.h
+[0.696s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/gimbal.h
+[0.696s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/gimbal_cmd.h
+[0.696s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/robot_mode.h
+[0.696s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.697s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/sentry_cmd.h
+[0.697s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/shoot_cmd.h
+[0.697s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/environment/library_path.sh
+[0.697s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/environment/library_path.dsv
+[0.697s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/chassis_cmd__rosidl_typesupport_fastrtps_c.h
+[0.697s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/game_state__rosidl_typesupport_fastrtps_c.h
+[0.697s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal__rosidl_typesupport_fastrtps_c.h
+[0.698s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__rosidl_typesupport_fastrtps_c.h
+[0.699s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/robot_mode__rosidl_typesupport_fastrtps_c.h
+[0.699s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/sentry_cmd__rosidl_typesupport_fastrtps_c.h
+[0.699s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/shoot_cmd__rosidl_typesupport_fastrtps_c.h
+[0.699s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.700s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/chassis_cmd__rosidl_typesupport_introspection_c.h
+[0.700s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/game_state__rosidl_typesupport_introspection_c.h
+[0.700s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal__rosidl_typesupport_introspection_c.h
+[0.700s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__rosidl_typesupport_introspection_c.h
+[0.700s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/robot_mode__rosidl_typesupport_introspection_c.h
+[0.700s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/sentry_cmd__rosidl_typesupport_introspection_c.h
+[0.701s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/shoot_cmd__rosidl_typesupport_introspection_c.h
+[0.701s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.701s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/chassis_cmd.hpp
+[0.701s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/chassis_cmd__builder.hpp
+[0.701s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/chassis_cmd__struct.hpp
+[0.701s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/chassis_cmd__traits.hpp
+[0.701s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/chassis_cmd__type_support.hpp
+[0.701s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/game_state__builder.hpp
+[0.701s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/game_state__struct.hpp
+[0.701s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/game_state__traits.hpp
+[0.701s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/game_state__type_support.hpp
+[0.701s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal__builder.hpp
+[0.701s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal__struct.hpp
+[0.701s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal__traits.hpp
+[0.701s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal__type_support.hpp
+[0.702s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__builder.hpp
+[0.702s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__struct.hpp
+[0.702s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__traits.hpp
+[0.702s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__type_support.hpp
+[0.702s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/robot_mode__builder.hpp
+[0.702s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/robot_mode__struct.hpp
+[0.702s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/robot_mode__traits.hpp
+[0.703s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/robot_mode__type_support.hpp
+[0.703s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/sentry_cmd__builder.hpp
+[0.703s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/sentry_cmd__struct.hpp
+[0.704s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/sentry_cmd__traits.hpp
+[0.704s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/sentry_cmd__type_support.hpp
+[0.704s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/shoot_cmd__builder.hpp
+[0.704s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/shoot_cmd__struct.hpp
+[0.704s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/shoot_cmd__traits.hpp
+[0.708s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/shoot_cmd__type_support.hpp
+[0.708s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/game_state.hpp
+[0.708s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/gimbal.hpp
+[0.708s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/gimbal_cmd.hpp
+[0.708s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/robot_mode.hpp
+[0.708s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.708s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/sentry_cmd.hpp
+[0.708s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/shoot_cmd.hpp
+[0.709s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/chassis_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[0.709s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/game_state__rosidl_typesupport_fastrtps_cpp.hpp
+[0.709s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal__rosidl_typesupport_fastrtps_cpp.hpp
+[0.709s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[0.709s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/robot_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[0.710s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/sentry_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[0.710s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/shoot_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[0.710s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.710s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/chassis_cmd__rosidl_typesupport_introspection_cpp.hpp
+[0.711s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/game_state__rosidl_typesupport_introspection_cpp.hpp
+[0.711s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal__rosidl_typesupport_introspection_cpp.hpp
+[0.711s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__rosidl_typesupport_introspection_cpp.hpp
+[0.711s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/robot_mode__rosidl_typesupport_introspection_cpp.hpp
+[0.711s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/sentry_cmd__rosidl_typesupport_introspection_cpp.hpp
+[0.711s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/shoot_cmd__rosidl_typesupport_introspection_cpp.hpp
+[0.711s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/environment/pythonpath.sh
+[0.711s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/environment/pythonpath.dsv
+[0.711s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces-0.0.1-py3.10.egg-info/PKG-INFO
+[0.711s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces-0.0.1-py3.10.egg-info/SOURCES.txt
+[0.711s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces-0.0.1-py3.10.egg-info/dependency_links.txt
+[0.711s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces-0.0.1-py3.10.egg-info/top_level.txt
+[0.713s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/__init__.py
+[0.713s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/_rm_interfaces_s.ep.rosidl_typesupport_c.c
+[0.713s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/_rm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.713s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/_rm_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[0.713s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/librm_interfaces__rosidl_generator_py.so
+[0.713s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/__init__.py
+[0.713s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_chassis_cmd.py
+[0.713s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_chassis_cmd_s.c
+[0.713s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_game_state.py
+[0.713s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_game_state_s.c
+[0.713s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_gimbal.py
+[0.714s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_gimbal_cmd.py
+[0.714s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_gimbal_cmd_s.c
+[0.714s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_gimbal_s.c
+[0.714s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_robot_mode.py
+[0.714s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_robot_mode_s.c
+[0.714s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_sentry_cmd.py
+[0.714s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_sentry_cmd_s.c
+[0.715s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_shoot_cmd.py
+[0.715s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_shoot_cmd_s.c
+[0.715s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.715s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.715s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.715s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.715s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.715s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.716s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/msg/GameState.idl
+[0.716s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/msg/SentryCmd.idl
+[0.716s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/msg/ChassisCmd.idl
+[0.716s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/msg/Gimbal.idl
+[0.716s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/msg/GimbalCmd.idl
+[0.716s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/msg/ShootCmd.idl
+[0.716s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/msg/RobotMode.idl
+[0.716s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/referee/GameState.msg
+[0.716s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/referee/SentryCmd.msg
+[0.716s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/msg/ChassisCmd.msg
+[0.716s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/msg/Gimbal.msg
+[0.716s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/msg/GimbalCmd.msg
+[0.716s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/msg/ShootCmd.msg
+[0.716s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/msg/RobotMode.msg
+[0.717s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/share/ament_index/resource_index/package_run_dependencies/rm_interfaces
+[0.717s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/share/ament_index/resource_index/parent_prefix_path/rm_interfaces
+[0.717s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/environment/ament_prefix_path.sh
+[0.717s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/environment/ament_prefix_path.dsv
+[0.717s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/environment/path.sh
+[0.719s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/environment/path.dsv
+[0.719s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/local_setup.bash
+[0.719s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/local_setup.sh
+[0.719s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/local_setup.zsh
+[0.719s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/local_setup.dsv
+[0.720s] -- Symlinking: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/package.dsv
+[0.725s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/share/ament_index/resource_index/packages/rm_interfaces
+[0.725s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.725s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.725s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.725s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.725s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.725s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.725s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.726s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfacesConfig.cmake
+[0.727s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfacesConfig-version.cmake
+[0.728s] -- Up-to-date symlink: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/package.xml
+[0.728s] -- Up-to-date: /home/xinzhu/sentry_ws/install/rm_interfaces/lib/librm_interfaces__rosidl_generator_c.so
+[0.728s] -- Up-to-date: /home/xinzhu/sentry_ws/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.730s] -- Up-to-date: /home/xinzhu/sentry_ws/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_introspection_c.so
+[0.730s] -- Up-to-date: /home/xinzhu/sentry_ws/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_c.so
+[0.731s] -- Up-to-date: /home/xinzhu/sentry_ws/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.731s] -- Up-to-date: /home/xinzhu/sentry_ws/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.731s] -- Up-to-date: /home/xinzhu/sentry_ws/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_cpp.so
+[0.745s] Listing '/home/xinzhu/sentry_ws/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces'...
+[0.746s] Listing '/home/xinzhu/sentry_ws/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg'...
+[0.750s] -- Up-to-date: /home/xinzhu/sentry_ws/install/rm_interfaces/lib/librm_interfaces__rosidl_generator_py.so
+[0.750s] -- Up-to-date: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_generator_cExport.cmake
+[0.750s] -- Up-to-date: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_generator_cExport-release.cmake
+[0.750s] -- Up-to-date: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[0.750s] -- Up-to-date: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_typesupport_fastrtps_cExport-release.cmake
+[0.750s] -- Up-to-date: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.750s] -- Up-to-date: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_introspection_cExport-release.cmake
+[0.750s] -- Up-to-date: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_cExport.cmake
+[0.750s] -- Up-to-date: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_cExport-release.cmake
+[0.750s] -- Up-to-date: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_generator_cppExport.cmake
+[0.750s] -- Up-to-date: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.750s] -- Up-to-date: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[0.750s] -- Up-to-date: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.751s] -- Up-to-date: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_introspection_cppExport-release.cmake
+[0.751s] -- Up-to-date: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_cppExport.cmake
+[0.751s] -- Up-to-date: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_cppExport-release.cmake
+[0.751s] -- Up-to-date: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_generator_pyExport.cmake
+[0.751s] -- Up-to-date: /home/xinzhu/sentry_ws/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_generator_pyExport-release.cmake
+[0.796s] Invoked command in '/home/xinzhu/sentry_ws/build/rm_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinzhu/Desktop/sentry_ws/install/control_panel:/opt/ros/humble PS1=%F{green}%n@%m%f%F{white}:%f%F{blue}%~%f%F{white}$%f /usr/local/bin/cmake --install /home/xinzhu/sentry_ws/build/rm_interfaces
