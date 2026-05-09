@@ -1,1 +1,0 @@
-/home/xinzhu/sentry_ws/build/sentry_description/ament_cmake_environment_hooks/local_setup.bash

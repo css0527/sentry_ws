@@ -1,1 +1,0 @@
-/home/xinzhu/sentry_ws/build/rm_interfaces/rosidl_generator_cpp/rm_interfaces/msg/detail/shoot_cmd__struct.hpp

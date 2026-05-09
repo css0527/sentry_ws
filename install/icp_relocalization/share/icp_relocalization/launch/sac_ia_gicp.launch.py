@@ -1,1 +1,0 @@
-/home/xinzhu/sentry_ws/src/icp_relocalization/launch/sac_ia_gicp.launch.py

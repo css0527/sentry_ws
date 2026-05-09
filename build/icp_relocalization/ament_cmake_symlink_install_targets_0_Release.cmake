@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/xinzhu/sentry_ws/build/icp_relocalization/icp_node" "/home/xinzhu/sentry_ws/build/icp_relocalization/transform_publisher" "/home/xinzhu/sentry_ws/build/icp_relocalization/sac_ia_gicp" "TARGETS" "icp_node" "transform_publisher" "sac_ia_gicp" "DESTINATION" "lib/icp_relocalization")

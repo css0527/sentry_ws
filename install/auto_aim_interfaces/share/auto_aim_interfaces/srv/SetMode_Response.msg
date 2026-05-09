@@ -1,1 +1,0 @@
-/home/xinzhu/sentry_ws/build/auto_aim_interfaces/rosidl_cmake/srv/SetMode_Response.msg

@@ -1,1 +1,0 @@
-/home/xinzhu/sentry_ws/src/rm_bringup/launch/bringup_navigation.launch.py

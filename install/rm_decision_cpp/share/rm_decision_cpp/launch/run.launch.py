@@ -1,1 +1,0 @@
-/home/xinzhu/sentry_ws/src/rm_decision_cpp/launch/run.launch.py

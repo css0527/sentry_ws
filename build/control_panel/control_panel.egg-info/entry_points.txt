@@ -1,3 +1,0 @@
-[console_scripts]
-control_panel = control_panel.gui:main
-

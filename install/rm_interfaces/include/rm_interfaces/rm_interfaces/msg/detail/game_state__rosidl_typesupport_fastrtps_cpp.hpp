@@ -1,1 +1,0 @@
-/home/xinzhu/sentry_ws/build/rm_interfaces/rosidl_typesupport_fastrtps_cpp/rm_interfaces/msg/detail/game_state__rosidl_typesupport_fastrtps_cpp.hpp

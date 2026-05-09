@@ -146,13 +146,13 @@ xinzhu@xinzhushaobing:~$ source /opt/ros/humble/setup.zsh
 xinzhu@xinzhushaobing:~$ source ~/sentry_ws/install/setup.zsh
 xinzhu@xinzhushaobing:~$ ros2 pkg list | grep rm_bringup
 rm_bringup
-xinzhu@xinzhushaobing:~$ ls ~/sentry_ws/install/rm_bringup/share/rm_bringup/launch/
+xinzhu@xinzhushaobing:~$ ls ~/sentry_ws_css/src/rm_bringup/launch/
 输出：bringup_auto_aim.launch.py  bringup_navigation.launch.py
 bringup.launch.py           __pycache__
 xinzhu@xinzhushaobing:~$ ros2 launch rm_bringup bringup_auto_aim.launch.py
 
 或者：
-cd ~/sentry_ws
+cd ~/sentry_ws_css
 colcon build --symlink-install --packages-select rm_bringup
 source install/setup.zsh
 ros2 launch rm_bringup bringup_auto_aim.launch.py

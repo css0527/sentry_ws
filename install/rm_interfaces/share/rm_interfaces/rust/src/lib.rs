@@ -1,1 +1,0 @@
-/home/xinzhu/sentry_ws/build/rm_interfaces/rosidl_generator_rs/rm_interfaces/rust/src/lib.rs

@@ -1,1 +1,0 @@
-/home/xinzhu/sentry_ws/src/FAST_LIO/launch/mapping.launch.py
